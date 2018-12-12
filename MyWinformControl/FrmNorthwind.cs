@@ -102,6 +102,8 @@ namespace MyWinformControl
             if (delRow.HasErrors)
             {
                 MessageBox.Show("외래키 제약조건 에러");
+
+                //MessageBox.Show("그래도 지우시겠습니까?", );
             }
             else
             {
@@ -306,8 +308,30 @@ namespace MyWinformControl
             }
             catch (SqlException)
             {
-                MessageBox.Show("삭제 실패");
+                MessageBox.Show("자식이 참조 중 입니다");
                 dataset.RejectChanges(); // rollback
+
+                if (MessageBox.Show("그래도 지우시겠습니까?", "Yes Or No", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+                {
+                    foreach (DataRow item in dataset.Tables["Orders"].Rows)
+                    {
+                        if (item["CustomerID"].ToString().Equals(targetRow["CustomerID"].ToString()))
+                        {
+                            item.Delete();
+                        }
+                    }
+                    sb = new SqlCommandBuilder(ordersAdapter);
+                    ordersAdapter.Update(dataset, "Orders");
+                    dataset.AcceptChanges();
+
+                    targetRow.Delete();
+                    sb = new SqlCommandBuilder(customersAdapter);
+                    customersAdapter.Update(dataset, "Customers");
+                    dataset.AcceptChanges();
+
+                    ClearCustomersFiled();
+                    FrmNorthwind_Load(null, null);
+                }                
             }
         }
 
@@ -333,6 +357,7 @@ namespace MyWinformControl
             }
             catch (Exception)
             {
+                MessageBox.Show("자식이 참조 중 입니다");
                 dataset.RejectChanges();
             }
         }
@@ -447,7 +472,7 @@ namespace MyWinformControl
                     orderDetailsAdapter.Update(dataset, "Order Details");
                     dataset.AcceptChanges();
 
-                    ClearCustomersFiled();
+                    ClearOrderDetailsFiled();
                     FrmNorthwind_Load(null, null);
                 }
                 catch (Exception)

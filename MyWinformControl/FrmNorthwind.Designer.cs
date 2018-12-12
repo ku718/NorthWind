@@ -96,8 +96,10 @@
             this.gCustomersView.Location = new System.Drawing.Point(12, 36);
             this.gCustomersView.Name = "gCustomersView";
             this.gCustomersView.RowTemplate.Height = 23;
+            this.gCustomersView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gCustomersView.Size = new System.Drawing.Size(268, 253);
             this.gCustomersView.TabIndex = 1;
+            this.gCustomersView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gCustomersView_CellClick);
             // 
             // gviewProducts
             // 
@@ -115,8 +117,10 @@
             this.gOrderDetailsView.Location = new System.Drawing.Point(343, 346);
             this.gOrderDetailsView.Name = "gOrderDetailsView";
             this.gOrderDetailsView.RowTemplate.Height = 23;
+            this.gOrderDetailsView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gOrderDetailsView.Size = new System.Drawing.Size(268, 253);
             this.gOrderDetailsView.TabIndex = 3;
+            this.gOrderDetailsView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gOrderDetailsView_CellClick);
             // 
             // gviewOrders
             // 

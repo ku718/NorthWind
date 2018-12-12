@@ -44,8 +44,8 @@
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.btnCusSave = new System.Windows.Forms.Button();
-            this.btnCusDelete = new System.Windows.Forms.Button();
             this.btnCusUpdate = new System.Windows.Forms.Button();
+            this.btnCusDelete = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.chkDiscontinued = new System.Windows.Forms.CheckBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -96,8 +96,10 @@
             this.gCustomersView.Location = new System.Drawing.Point(12, 36);
             this.gCustomersView.Name = "gCustomersView";
             this.gCustomersView.RowTemplate.Height = 23;
+            this.gCustomersView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gCustomersView.Size = new System.Drawing.Size(268, 253);
             this.gCustomersView.TabIndex = 1;
+            this.gCustomersView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gCustomersView_CellClick);
             // 
             // gviewProducts
             // 
@@ -105,6 +107,7 @@
             this.gviewProducts.Location = new System.Drawing.Point(343, 36);
             this.gviewProducts.Name = "gviewProducts";
             this.gviewProducts.RowTemplate.Height = 23;
+            this.gviewProducts.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gviewProducts.Size = new System.Drawing.Size(268, 253);
             this.gviewProducts.TabIndex = 2;
             this.gviewProducts.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gviewProducts_CellClick);
@@ -115,8 +118,10 @@
             this.gOrderDetailsView.Location = new System.Drawing.Point(343, 346);
             this.gOrderDetailsView.Name = "gOrderDetailsView";
             this.gOrderDetailsView.RowTemplate.Height = 23;
+            this.gOrderDetailsView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gOrderDetailsView.Size = new System.Drawing.Size(268, 253);
             this.gOrderDetailsView.TabIndex = 3;
+            this.gOrderDetailsView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gOrderDetailsView_CellClick);
             // 
             // gviewOrders
             // 
@@ -124,6 +129,7 @@
             this.gviewOrders.Location = new System.Drawing.Point(12, 346);
             this.gviewOrders.Name = "gviewOrders";
             this.gviewOrders.RowTemplate.Height = 23;
+            this.gviewOrders.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.gviewOrders.Size = new System.Drawing.Size(268, 253);
             this.gviewOrders.TabIndex = 4;
             this.gviewOrders.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gviewOrders_CellClick);
@@ -240,16 +246,6 @@
             this.btnCusSave.UseVisualStyleBackColor = true;
             this.btnCusSave.Click += new System.EventHandler(this.btnCustomersInsert_Click);
             // 
-            // btnCusDelete
-            // 
-            this.btnCusDelete.Location = new System.Drawing.Point(13, 188);
-            this.btnCusDelete.Name = "btnCusDelete";
-            this.btnCusDelete.Size = new System.Drawing.Size(75, 23);
-            this.btnCusDelete.TabIndex = 16;
-            this.btnCusDelete.Text = "Delete";
-            this.btnCusDelete.UseVisualStyleBackColor = true;
-            this.btnCusDelete.Click += new System.EventHandler(this.btnCustomersDelete_Click);
-            // 
             // btnCusUpdate
             // 
             this.btnCusUpdate.Location = new System.Drawing.Point(94, 188);
@@ -259,6 +255,16 @@
             this.btnCusUpdate.Text = "Update";
             this.btnCusUpdate.UseVisualStyleBackColor = true;
             this.btnCusUpdate.Click += new System.EventHandler(this.btnCustomersUpdate_Click);
+            // 
+            // btnCusDelete
+            // 
+            this.btnCusDelete.Location = new System.Drawing.Point(13, 188);
+            this.btnCusDelete.Name = "btnCusDelete";
+            this.btnCusDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnCusDelete.TabIndex = 16;
+            this.btnCusDelete.Text = "Delete";
+            this.btnCusDelete.UseVisualStyleBackColor = true;
+            this.btnCusDelete.Click += new System.EventHandler(this.btnCustomersDelete_Click);
             // 
             // groupBox2
             // 

@@ -67,11 +67,9 @@
             this.txtOrdCustomerID = new System.Windows.Forms.TextBox();
             this.txtShipName = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-
             this.txtOrderDetailsDiscount = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.txtOrderDetailsQuantity = new System.Windows.Forms.TextBox();
-
             this.label17 = new System.Windows.Forms.Label();
             this.btnODSave = new System.Windows.Forms.Button();
             this.btnODDelete = new System.Windows.Forms.Button();
@@ -80,11 +78,9 @@
             this.label15 = new System.Windows.Forms.Label();
             this.txtOrderDetailsOrderID = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-
             this.txtOrderDetailsProductID = new System.Windows.Forms.TextBox();
             this.txtOrderDetailsUnitPrice = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.gCustomersView)).BeginInit();
-
             ((System.ComponentModel.ISupportInitialize)(this.gviewProducts)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gOrderDetailsView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gviewOrders)).BeginInit();
@@ -219,7 +215,9 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.btnCusSave);
+            this.groupBox1.Controls.Add(this.btnCusUpdate);
             this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.btnCusDelete);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.txtCustomerId);
             this.groupBox1.Controls.Add(this.label6);
@@ -240,10 +238,11 @@
             this.btnCusSave.TabIndex = 17;
             this.btnCusSave.Text = "Save";
             this.btnCusSave.UseVisualStyleBackColor = true;
-
             this.btnCusSave.Click += new System.EventHandler(this.btnCustomersInsert_Click);
-
-            this.btnCusDelete.Location = new System.Drawing.Point(682, 295);
+            // 
+            // btnCusDelete
+            // 
+            this.btnCusDelete.Location = new System.Drawing.Point(13, 188);
             this.btnCusDelete.Name = "btnCusDelete";
             this.btnCusDelete.Size = new System.Drawing.Size(75, 23);
             this.btnCusDelete.TabIndex = 16;
@@ -253,17 +252,14 @@
             // 
             // btnCusUpdate
             // 
-
-            this.btnCusUpdate.Location = new System.Drawing.Point(8, 188);
-
+            this.btnCusUpdate.Location = new System.Drawing.Point(94, 188);
             this.btnCusUpdate.Name = "btnCusUpdate";
             this.btnCusUpdate.Size = new System.Drawing.Size(75, 23);
             this.btnCusUpdate.TabIndex = 15;
             this.btnCusUpdate.Text = "Update";
             this.btnCusUpdate.UseVisualStyleBackColor = true;
-
             this.btnCusUpdate.Click += new System.EventHandler(this.btnCustomersUpdate_Click);
-
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.chkDiscontinued);
@@ -486,7 +482,6 @@
             this.txtOrderDetailsDiscount.Name = "txtOrderDetailsDiscount";
             this.txtOrderDetailsDiscount.Size = new System.Drawing.Size(100, 21);
             this.txtOrderDetailsDiscount.TabIndex = 21;
-
             // 
             // label18
             // 
@@ -497,14 +492,12 @@
             this.label18.TabIndex = 20;
             this.label18.Text = "Discount";
             // 
-
             // txtOrderDetailsQuantity
             // 
             this.txtOrderDetailsQuantity.Location = new System.Drawing.Point(102, 119);
             this.txtOrderDetailsQuantity.Name = "txtOrderDetailsQuantity";
             this.txtOrderDetailsQuantity.Size = new System.Drawing.Size(100, 21);
             this.txtOrderDetailsQuantity.TabIndex = 19;
-
             // 
             // label17
             // 
@@ -592,7 +585,6 @@
             this.txtOrderDetailsUnitPrice.Name = "txtOrderDetailsUnitPrice";
             this.txtOrderDetailsUnitPrice.Size = new System.Drawing.Size(100, 21);
             this.txtOrderDetailsUnitPrice.TabIndex = 11;
-
             // 
             // FrmNorthwind
             // 
@@ -600,8 +592,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1110, 631);
             this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.btnCusUpdate);
-            this.Controls.Add(this.btnCusDelete);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);

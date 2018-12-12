@@ -18,6 +18,7 @@ namespace MyWinformControl
         SqlDataAdapter ordersAdapter;
         SqlDataAdapter customersAdapter;
         DataSet dataset;
+        SqlCommandBuilder proScb;
 
         public FrmNorthwind()
         {
@@ -50,7 +51,7 @@ namespace MyWinformControl
             dataset.Relations.Add(ordersRelation);
             dataset.Relations.Add(productsRelation);
 
-
+            proScb = new SqlCommandBuilder(productsAdapter);
 
             gviewCustomers.DataSource = dataset.Tables["Customers"];
             gviewProducts.DataSource = dataset.Tables["Products"];
@@ -165,18 +166,89 @@ namespace MyWinformControl
 
         private void btnProUpdate_Click(object sender, EventArgs e)
         {
+            DataRow dr = dataset.Tables["products"].Rows[gviewProducts.CurrentRow.Index];
 
+            dr.BeginEdit();
+            dr["productID"] = txtProProductID.Text;
+            dr["productName"] = txtProductName.Text;
+            dr["discontinued"] = BoolToNumber(chkDiscontinued.Checked);
+            dr.EndEdit();
+
+            DataSet change = dataset.GetChanges(DataRowState.Modified);
+            if (change.HasErrors)
+            {
+                MessageBox.Show("제약 조건에 이상");
+            }
+            else
+            {
+                try
+                {
+                    productsAdapter.Update(change.Tables["products"]);
+                    dataset.AcceptChanges();
+                }
+                catch (SqlException sq)
+                {
+                    MessageBox.Show(sq.Message);
+                    dataset.RejectChanges();
+                }
+            }
         }
 
         private void btnProDelete_Click(object sender, EventArgs e)
         {
+            DataRow dr = dataset.Tables["products"].Rows[gviewProducts.CurrentRow.Index];
 
+            dr.Delete();
+            try
+            {
+                productsAdapter.Update(dataset.Tables["products"]);
+                dataset.AcceptChanges();
+            }
+            catch (SqlException sq)
+            {
+                MessageBox.Show(sq.Message);
+                dataset.RejectChanges();
+            }
         }
 
         private void btnProSave_Click(object sender, EventArgs e)
         {
+            DataRow dr = dataset.Tables["products"].NewRow();
+            dr["productID"] = this.txtProProductID.Text;
+            dr["productName"] = this.txtProductName.Text;
+            dr["discontinued"] = BoolToNumber(chkDiscontinued.Checked);
 
+            dataset.Tables["products"].Rows.Add(dr);
 
+            try
+            {
+                productsAdapter.Update(dataset.Tables["products"]);
+                dataset.AcceptChanges();
+            }
+            catch (SqlException sq)
+            {
+                MessageBox.Show(sq.Message);
+                dataset.RejectChanges();
+            }
+        }
+        private int BoolToNumber(bool flag)
+        {
+            if (flag)
+            {
+                return 1;
+            }
+            else
+            {
+                return 0;
+            }
+        }
+
+        private void gviewProducts_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataRow select = dataset.Tables["products"].Rows[e.RowIndex];
+            txtProProductID.Text = select["productID"].ToString();
+            txtProductName.Text = select["productName"].ToString();
+            chkDiscontinued.Checked = (bool)select["discontinued"];
         }
     }
 }

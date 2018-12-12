@@ -43,10 +43,12 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnCusUpdate = new System.Windows.Forms.Button();
-            this.btnCusDelete = new System.Windows.Forms.Button();
             this.btnCusSave = new System.Windows.Forms.Button();
+            this.btnCusDelete = new System.Windows.Forms.Button();
+            this.btnCusUpdate = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.chkDiscontinued = new System.Windows.Forms.CheckBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.btnProSave = new System.Windows.Forms.Button();
             this.btnProDelete = new System.Windows.Forms.Button();
             this.btnProUpdate = new System.Windows.Forms.Button();
@@ -65,6 +67,10 @@
             this.txtOrdCustomerID = new System.Windows.Forms.TextBox();
             this.txtShipName = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.txtDiscount = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.txtQuantity = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
             this.btnODSave = new System.Windows.Forms.Button();
             this.btnODDelete = new System.Windows.Forms.Button();
             this.btnODUpdate = new System.Windows.Forms.Button();
@@ -74,12 +80,6 @@
             this.label16 = new System.Windows.Forms.Label();
             this.txtODProductID = new System.Windows.Forms.TextBox();
             this.txtUnitPrice = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.txtQuantity = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.txtDiscount = new System.Windows.Forms.TextBox();
-            this.chkDiscontinued = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.gviewCustomers)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gviewProducts)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gviewOrderDetails)).BeginInit();
@@ -107,6 +107,7 @@
             this.gviewProducts.RowTemplate.Height = 23;
             this.gviewProducts.Size = new System.Drawing.Size(268, 253);
             this.gviewProducts.TabIndex = 2;
+            this.gviewProducts.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gviewProducts_CellClick);
             // 
             // gviewOrderDetails
             // 
@@ -214,8 +215,6 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.btnCusSave);
-            this.groupBox1.Controls.Add(this.btnCusDelete);
-            this.groupBox1.Controls.Add(this.btnCusUpdate);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.txtCusCustomerID);
@@ -229,24 +228,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Customers";
             // 
-            // btnCusUpdate
-            // 
-            this.btnCusUpdate.Location = new System.Drawing.Point(8, 188);
-            this.btnCusUpdate.Name = "btnCusUpdate";
-            this.btnCusUpdate.Size = new System.Drawing.Size(75, 23);
-            this.btnCusUpdate.TabIndex = 15;
-            this.btnCusUpdate.Text = "Update";
-            this.btnCusUpdate.UseVisualStyleBackColor = true;
-            // 
-            // btnCusDelete
-            // 
-            this.btnCusDelete.Location = new System.Drawing.Point(89, 188);
-            this.btnCusDelete.Name = "btnCusDelete";
-            this.btnCusDelete.Size = new System.Drawing.Size(75, 23);
-            this.btnCusDelete.TabIndex = 16;
-            this.btnCusDelete.Text = "Delete";
-            this.btnCusDelete.UseVisualStyleBackColor = true;
-            // 
             // btnCusSave
             // 
             this.btnCusSave.Location = new System.Drawing.Point(13, 217);
@@ -255,6 +236,24 @@
             this.btnCusSave.TabIndex = 17;
             this.btnCusSave.Text = "Save";
             this.btnCusSave.UseVisualStyleBackColor = true;
+            // 
+            // btnCusDelete
+            // 
+            this.btnCusDelete.Location = new System.Drawing.Point(682, 295);
+            this.btnCusDelete.Name = "btnCusDelete";
+            this.btnCusDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnCusDelete.TabIndex = 16;
+            this.btnCusDelete.Text = "Delete";
+            this.btnCusDelete.UseVisualStyleBackColor = true;
+            // 
+            // btnCusUpdate
+            // 
+            this.btnCusUpdate.Location = new System.Drawing.Point(763, 295);
+            this.btnCusUpdate.Name = "btnCusUpdate";
+            this.btnCusUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btnCusUpdate.TabIndex = 15;
+            this.btnCusUpdate.Text = "Update";
+            this.btnCusUpdate.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -273,6 +272,24 @@
             this.groupBox2.TabIndex = 18;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Products";
+            // 
+            // chkDiscontinued
+            // 
+            this.chkDiscontinued.AutoSize = true;
+            this.chkDiscontinued.Location = new System.Drawing.Point(103, 141);
+            this.chkDiscontinued.Name = "chkDiscontinued";
+            this.chkDiscontinued.Size = new System.Drawing.Size(15, 14);
+            this.chkDiscontinued.TabIndex = 19;
+            this.chkDiscontinued.UseVisualStyleBackColor = true;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(6, 145);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(78, 12);
+            this.label9.TabIndex = 18;
+            this.label9.Text = "Discontinued";
             // 
             // btnProSave
             // 
@@ -454,6 +471,38 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "OrderDetails";
             // 
+            // txtDiscount
+            // 
+            this.txtDiscount.Location = new System.Drawing.Point(102, 154);
+            this.txtDiscount.Name = "txtDiscount";
+            this.txtDiscount.Size = new System.Drawing.Size(100, 21);
+            this.txtDiscount.TabIndex = 21;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(6, 161);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(54, 12);
+            this.label18.TabIndex = 20;
+            this.label18.Text = "Discount";
+            // 
+            // txtQuantity
+            // 
+            this.txtQuantity.Location = new System.Drawing.Point(102, 119);
+            this.txtQuantity.Name = "txtQuantity";
+            this.txtQuantity.Size = new System.Drawing.Size(100, 21);
+            this.txtQuantity.TabIndex = 19;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(6, 125);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(51, 12);
+            this.label17.TabIndex = 18;
+            this.label17.Text = "Quantity";
+            // 
             // btnODSave
             // 
             this.btnODSave.Location = new System.Drawing.Point(13, 217);
@@ -529,62 +578,14 @@
             this.txtUnitPrice.Size = new System.Drawing.Size(100, 21);
             this.txtUnitPrice.TabIndex = 11;
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(6, 145);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(78, 12);
-            this.label9.TabIndex = 18;
-            this.label9.Text = "Discontinued";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(6, 125);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(51, 12);
-            this.label17.TabIndex = 18;
-            this.label17.Text = "Quantity";
-            // 
-            // txtQuantity
-            // 
-            this.txtQuantity.Location = new System.Drawing.Point(102, 119);
-            this.txtQuantity.Name = "txtQuantity";
-            this.txtQuantity.Size = new System.Drawing.Size(100, 21);
-            this.txtQuantity.TabIndex = 19;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(6, 161);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(54, 12);
-            this.label18.TabIndex = 20;
-            this.label18.Text = "Discount";
-            // 
-            // txtDiscount
-            // 
-            this.txtDiscount.Location = new System.Drawing.Point(102, 154);
-            this.txtDiscount.Name = "txtDiscount";
-            this.txtDiscount.Size = new System.Drawing.Size(100, 21);
-            this.txtDiscount.TabIndex = 21;
-            // 
-            // chkDiscontinued
-            // 
-            this.chkDiscontinued.AutoSize = true;
-            this.chkDiscontinued.Location = new System.Drawing.Point(103, 141);
-            this.chkDiscontinued.Name = "chkDiscontinued";
-            this.chkDiscontinued.Size = new System.Drawing.Size(15, 14);
-            this.chkDiscontinued.TabIndex = 19;
-            this.chkDiscontinued.UseVisualStyleBackColor = true;
-            // 
             // FrmNorthwind
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1110, 631);
             this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.btnCusUpdate);
+            this.Controls.Add(this.btnCusDelete);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);

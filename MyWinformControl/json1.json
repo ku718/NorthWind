@@ -1,0 +1,1308 @@
+{
+  "lastBuildDate": "Tue, 04 Dec 2018 13:29:58 +0900",
+  "total": 2812,
+  "start": 1,
+  "display": 100,
+  "items": [
+    {
+      "title": "이것이 C#이다 (처음부터 끝까지 입문자를 배려한 C# 입문서,C# 7.2 버전)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13745716",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/137/457/13745716.jpg?type=m1&udate=20180704",
+      "author": "박상현",
+      "price": "30000",
+      "discount": "27000",
+      "publisher": "한빛미디어",
+      "pubdate": "20180701",
+      "isbn": "1162240865 9791162240861",
+      "description": "이 책은 C# .NET 프레임워크 세계에 첫 발을 들이는 입문자를 위한 책이다. 따라서 딱딱하지 않은 대화식 표현으로 1:1 강의처럼 배울 수 있는 것이 이 책의 가장 큰 장점이다. 또한 C#의 핵심 문법은 물론... 책을 덮을 때쯤이면 기초 문법부터, 고급 문법, 그리고 .NET 프레임워크의 활용까지 C#의 전반적인 큰... "
+
+    },
+    {
+      "title": "시작하세요! C# 7.1 프로그래밍 (기본 문법부터 실전 예제까지)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=12545847",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/125/458/12545847.jpg?type=m1&udate=20170928",
+      "author": "정성태",
+      "price": "30000",
+      "discount": "27000",
+      "publisher": "위키북스",
+      "pubdate": "20170922",
+      "isbn": "1158390785 9791158390785",
+      "description": "여러분들이 프로그램을 만들고자 할 때 사용하게 될 프로그래밍 언어인 C#의 기초를 단단하게 다질 수 있도록 이 책을 구성했다. C# 언어를 최신의 7.1... [개정판에서 추가된 내용]\n\n◎ C# 6.0 관련 내용을 최신 버전에 맞게 개선\n◎ C# 7.0과 C# 7.1 기능 수록\n    - 패턴 매칭\n    - 튜플\n    - DEFAULT 리터럴... "
+
+    },
+    {
+      "title": "Effective C# (강력한 C# 코드를 구현하는 50가지 전략과 기법,이펙티브)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=12712454",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/127/124/12712454.jpg?type=m1&udate=20180426",
+      "author": "빌 와그너",
+      "price": "25000",
+      "discount": "22500",
+      "publisher": "한빛미디어",
+      "pubdate": "20171106",
+      "isbn": "1162240032 9791162240038",
+      "description": "더 나은 C# 코드를 작성하는 새로운 방법 50가지\n\nC#은 전통적인 .NET 기반 개발에서 유니티 게임 엔진으로 개발 영역을 확대하면서 더욱 주목받고 있다.... 이에 이 책은 소프트웨어 개발자가 C#을 더 효율적으로 사용할 수 있도록 다양한 팁과 실용적인 방법을 제공한다. \n\n저자는 C#의 힘을 온전히 활용하여... "
+
+    },
+    {
+      "title": "프랙티컬 C# (관용구, 정석, 패턴으로 배우는 C# 프로그래밍 테크닉)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13086913",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/130/869/13086913.jpg?type=m1&udate=20171230",
+      "author": "이데이 히데유키",
+      "price": "28000",
+      "discount": "25200",
+      "publisher": "위키북스",
+      "pubdate": "20180110",
+      "isbn": "1158390866 9791158390860",
+      "description": "대부분의 초보 프로그래머들은 ’C#의 기본적인 문법은 어느 정도 이해했지만 지금 알고 있는 문법을 어떻게 적용하고 프로그램을 어떻게 만들어야 할지 잘 모르겠다.’라는 고민을 가지고 있을 것입니다. 이 책은 C#을 이제 정석으로 공부하려고 하는 독자를 위한 책입니다.\n\nC#의 문법을 이해한 것만으로는... "
+
+    },
+    {
+      "title": "뇌를 자극하는 C# 5.0 프로그래밍",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=8064530",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/080/645/08064530.jpg?type=m1&udate=20181108",
+      "author": "박상현",
+      "price": "27000",
+      "discount": "24300",
+      "publisher": "한빛미디어",
+      "pubdate": "20140820",
+      "isbn": "8968481164 9788968481161",
+      "description": "[뇌를 자극하는 C# 5.0 프로그래밍]은 프로그래밍 경험이 없는 입문자들의 눈높이에 맞춰 C#을 알기 쉽게 설명한 책이다. C# 언어의 탄생 배경부터 상세한 입문 과정까지 C#을 잘 설명해 주고 있으며, 문법 설명에만 치중하지 않고 프로그램의 동작원리도 충실하게 설명하고 있다. 또한, C# 프로그램이 수행될 때... "
+
+    },
+    {
+      "title": "C# 프로그래밍 (프로그래밍 기초부터 객체 지향 핵심까지)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=9910114",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/099/101/09910114.jpg?type=m1&udate=20180906",
+      "author": "윤인성",
+      "price": "25000",
+      "discount": "25000",
+      "publisher": "한빛아카데미",
+      "pubdate": "20151201",
+      "isbn": "1156642043 9791156642046",
+      "description": "프로그래밍 기초부터 객체 지향 핵심까지 다루고 있는 [C# 프로그래밍]. 책은 C# 언어를 “실습 환경 구축 ▶ 기본예제 ▶ 응용예제/윈도 폼 ▶ 프로젝트” 순의 풍부한 예제와 함께 단계적으로 익힐 수 있도록 구성했다. 장별 이론을 윈도 폼에 적용하여 비주얼한 실행 결과를 확인할 수 있어 학습자가 흥미를 잃지... "
+
+    },
+    {
+      "title": "크로스 플랫폼 개발을 위한 C# 7과 닷넷 코어 2.0 (C# 7, 닷넷 코어, 비주얼 스튜디오 2017, 비주얼 스튜디오 코드로 만드는)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13131758",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/131/317/13131758.jpg?type=m1&udate=20180120",
+      "author": "마크 프라이스",
+      "price": "40000",
+      "discount": "36000",
+      "publisher": "에이콘출판",
+      "pubdate": "20180118",
+      "isbn": "1161751033 9791161751030",
+      "description": "『크로스 플랫폼 개발을 위한 C# 7과 닷넷 코어 2.0』은 C# 7의 새로운 기능과 닷넷 코어의 전반적인 내용을 다룬다. 설명을 최소한으로 하고 예제를 따라 해보면서 빠르게 익힐 수 있도록 구성돼 있다. C#의 기본 문법부터 고급 기능, 닷넷 코어를 활용한 콘솔, 데이터베이스, 웹 프로그래밍까지의 과정을 비주얼... "
+
+    },
+    {
+      "title": "유니티 3D로 배우는 C# 프로그래밍",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13317307",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/133/173/13317307.jpg?type=m1&udate=20180823",
+      "author": "알렉스 오키타",
+      "price": "36000",
+      "discount": "32400",
+      "publisher": "e비즈북스",
+      "pubdate": "20180228",
+      "isbn": "115783101X 9791157831012",
+      "description": "디자이너 출신 프로그래머가 쓴 C#과 유니티의 기초\n《유니티 3D로 배우는 C# 프로그래밍》은 프로그래밍 언어가 친숙하지 않은 사람을 위한 책이다. 누구나 쉽게 따라할 수 있게 구성된 이 책은 유니티 3D로 게임을 개발하기 위해 어떻게 C# 언어를 사용하는지를 다룬다. 이 책을 완독하면 프로그래밍에 충분한... "
+
+    },
+    {
+      "title": "유니티 C# 스크립팅 마스터하기 (고급 C# 팁과 기법을 통해 배우는 프로 게임 개발)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=10128798",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/101/287/10128798.jpg?type=m1&udate=20180602",
+      "author": "앨런 쏜",
+      "price": "35000",
+      "discount": "31500",
+      "publisher": "에이콘출판",
+      "pubdate": "20160127",
+      "isbn": "8960778214 9788960778214",
+      "description": "이 책은 유니티에서 C#을 이용해 게임 스크립트를 작성하는 데 필요한 고급 기술들을 집중적으로 탐구해보는 중급자용 안내서다. C#과 유니티에 대한 기초적인 이해가 있는 독자를 대상으로 디버깅, 인공지능, 사용자 정의 렌더링, 에디터 기능 확장, 애니메이션 등을 비롯한 실용적 주제 및 사례에 대한... "
+
+    },
+    {
+      "title": "C# 코딩의 기술 (기본편,똑똑하게 코딩하는 법)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=9567905",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/095/679/09567905.jpg?type=m1&udate=20170711",
+      "author": "가와마타 아키라",
+      "price": "17800",
+      "discount": "16020",
+      "publisher": "길벗",
+      "pubdate": "20150923",
+      "isbn": "1186659327 9791186659328",
+      "description": "일반적인 C# 입문서와 학교에서는 알려주지 않았던 C# 프로그래밍 베스트 노하우를 수록한 『C# 코딩의 기술: 기술편』. 이 책은 변수 선언을 어떻게 하는지, 배열이 무엇인지에 관해서는 설명하지 않는다. 바로 하나의 코드를 던져주며 이 코드에서 놓치고 있는 함정은 무엇인지, 예고된 버그의 온상은 어디인지... "
+
+    },
+    {
+      "title": "Head First C# (상상을 초월하는 객체지향 C# 학습법)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=8779921",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/087/799/08779921.jpg?type=m1&udate=20170302",
+      "author": "앤드류 스텔만|제니퍼 그린",
+      "price": "42000",
+      "discount": "37800",
+      "publisher": "한빛미디어",
+      "pubdate": "20150301",
+      "isbn": "8968481652 9788968481659",
+      "description": "[HEAD FIRST C#]은 C#을 실무에서 바로 사용하고 싶은 사람, C# 개발 경험이 있지만, XAML과 MVVM, 윈도우 앱 스토어 개발을 조금 더 배우고 싶은 사람을 위한 책으로 C#, XAML, .NET 프레임워크, VISUAL STUDIO IDE를 위한 지침서이다. 첫째 장에서는 게임을 만들면서 IDE와 친해진다. 그다음에는 클래스와... "
+
+    },
+    {
+      "title": "C# Machine Learning Projects(Paperback) (Nine real-world projects to build robust and high-performing machine learning models with C#)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=14300733",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/143/007/14300733.jpg?type=m1&udate=20181201",
+      "author": "Hwang|Yoon Hyup",
+      "price": "42000",
+      "discount": "42000",
+      "publisher": "PacktPublishing",
+      "pubdate": "20181129",
+      "isbn": "1788996402 9781788996402",
+      "description": "Power your C# and .NET applications with exciting machine learning models and modular projects&#x0D;&#x0D;Key Features:&#x0D;* Produce... * Expand your understanding of machine learning and C#&#x0D;* Get to grips with C# packages such as Accord.net, LiveCharts, and Deedle... "
+
+    },
+    {
+      "title": "C# 7.0 프로그래밍 실전 프로젝트",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=14125929",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/141/259/14125929.jpg?type=m1&udate=20181101",
+      "author": "조호묵",
+      "price": "24000",
+      "discount": "21600",
+      "publisher": "가메",
+      "pubdate": "20181105",
+      "isbn": "8980783000 9788980783007",
+      "description": "C# 프로그래밍 개발자를 위한 기본서▶ C#으로 개발할 수 있는 기초부터 응용까지 완벽한 47개의 예제 제공▶ 다양한 예제로 C# 문법과 고급 테크닉 완벽 마스터▶ 최단 기간 윈도우 애플리케이션 개발을 위한 지침서▶ 실무 개발에 활용 가능한 프로그래밍 능력 습득▶ .NET FRAMEWORK 4.7 이상... "
+
+    },
+    {
+      "title": "C# 6.0 완벽 가이드 세트 (깊고 넓게 알려주는 레퍼런스 북,전2권)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=11221841",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/112/218/11221841.jpg?type=m1&udate=20161223",
+      "author": "조셉 앨버허리|벤 앨버허리",
+      "price": "58000",
+      "discount": "52200",
+      "publisher": "인사이트",
+      "pubdate": "20161028",
+      "isbn": "8966267114 9788966267118",
+      "description": "문법과 변수의 기초부터 포인터와 연산자 중복적재(overloading)에 이르기까지 C# 언어의 모든 측면을 빠르게 정리하고, 세 개 장에 걸쳐 LINQ만을 집중적으로 다루어 LINQ를 깊은 곳까지 탐색한다. 또한 동적 프로그래밍, 비동기 프로그래밍, 병렬 프로그래밍을 설명하고, XML, 네트워킹, 직렬화, 반영... "
+
+    },
+    {
+      "title": "C# 코딩의 기술 실전편 (똑똑하게 코딩하는 법)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=10900514",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/109/005/10900514.jpg?type=m1&udate=20170711",
+      "author": "가와마타 아키라",
+      "price": "24000",
+      "discount": "21600",
+      "publisher": "길벗",
+      "pubdate": "20160812",
+      "isbn": "118734544X 9791187345442",
+      "description": "『C# 코딩의 기술 실전편』은  에피소드로 코딩에 대해서 배울 수 있는 책이다. C# 기본 기능부터 병렬 처리, 비동기 처리, LINQ, 디버깅, 테스트, 마이크로소프트 클라우드 플랫폼인 애저까지 전작 ‘기본편’보다 다양한 주제를 다룬다. 애저 스토리지, 효율적으로 쿼리하는 법, 메타 데이터, 스케일 아웃 등... "
+
+    },
+    {
+      "title": "C# 프로그래밍 입문",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=11659777",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/116/597/11659777.jpg?type=m1&udate=20170417",
+      "author": "오세만|이양선|김정숙|이창환|손윤식",
+      "price": "27000",
+      "discount": "25650",
+      "publisher": "생능출판사",
+      "pubdate": "20170314",
+      "isbn": "8970509011 9788970509013",
+      "description": "C#(C sharp)은 마이크로소프트사의 앤더스 헬스버그(Anders Hejlsberg)에 의해 고안된 언어로 단순한 콘솔 응용... C#은 .NET 환경에 최적화되어 있으며 컴포넌트 기반의 소프트웨어 개발 패러다임을 지원하는 컴포넌트 지향 프로그래밍 언어이다.\n\nC# 언어는 그 이름이 의미하듯이 C 계열에 속하는 프로그래밍... "
+
+    },
+    {
+      "title": "유니티 5.x와 함께하는 C# 첫걸음 (C#을 배우고 싶은 유니티 개발자를 위한)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=11321909",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/113/219/11321909.jpg?type=m1&udate=20171205",
+      "author": "그렉 루코섹",
+      "price": "25000",
+      "discount": "22500",
+      "publisher": "에이콘출판",
+      "pubdate": "20161130",
+      "isbn": "8960779350 9788960779358",
+      "description": "[유니티 5.X와 함께하는 C# 첫걸음]은 유니티로 게임을 만들고 싶지만 C# 프로그래밍 언어를 잘 모르는 초보 프로그래머에게 C#을 차근차근 알려준다. 유니티를 사용해 간단한 게임을 만들어가면서 가장 기초적인 개념인 변수와 메소드부터 컬렉션, 흐름 제어, 루프를 거쳐 싱글턴 패턴, 객체지향 프로그램까지 C... "
+
+    },
+    {
+      "title": "제프리 리처의 CLR via C#",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=8375128",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/083/751/08375128.jpg?type=m1&udate=20170804",
+      "author": "제프리 리처",
+      "price": "50000",
+      "discount": "45000",
+      "publisher": "비제이퍼블릭",
+      "pubdate": "20141125",
+      "isbn": "8994774831 9788994774831",
+      "description": "『제프리 리처의 CLR VIA C#』은 NET FRAMEWORK 기반의 응용프로그램을 개발하는 방법과 함께, 이 기반 환경에서 재사용 가능한 클래스를 설계하는 방법을 설명한다. CLR이 어떻게 작동하며 관련된 내부 구성요소들이 어떤 기능을 제공하는지를 알려주며 또한 FRAMEWORK CLASS LIBRARY(FCL)의... "
+
+    },
+    {
+      "title": "가볍게 시작하는 리얼 C# 프로그래밍 (누구나 할 수 있는 눈에 보이는 프로그래밍)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=9722144",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/097/221/09722144.jpg?type=m1&udate=20180210",
+      "author": "조수현|추경호",
+      "price": "27000",
+      "discount": "24300",
+      "publisher": "루비페이퍼",
+      "pubdate": "20151027",
+      "isbn": "1186710020 9791186710029",
+      "description": "이 책은 철저하게 컴퓨터 프로그래밍을 처음 접하는 이들과 비전공자의 눈높이에 맞춰 구성했습니다. 특히 소프트웨어와 다소 거리가 있는 학과생과 중고생들마저도. 프로그래밍에 대해 흥미를 느끼도록 하는 데에 초점을 맞추었습니다. 필자의 대학생 시절, 프로그래밍을 포기하는 수많은 후배를 가르치며 얻은... "
+
+    },
+    {
+      "title": "C#으로 배우는 적응형 코드 (디자인 패턴과 SOLID 원칙 기반의 애자일 코딩)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=9819418",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/098/194/09819418.jpg?type=m1&udate=20180418",
+      "author": "게리 맥린 홀",
+      "price": "30000",
+      "discount": "27000",
+      "publisher": "제이펍",
+      "pubdate": "20151126",
+      "isbn": "1185890378 9791185890371",
+      "description": "이 책 [C#으로 배우는 적응형 코드]은 애자일 프로그래밍에 초점을 맞춰 적응형 코드를 작성하고, 나아가 더 나은 비즈니스 가치를 구현하기 위한 모범 사례, 원칙 그리고 패턴들을 설명한다. 책에는 스크럼에 관한 기초 다지기: 산출물, 역할, 지표 및 단계, 아키텍처적인 의존성을 정리하고 관리하는 방법, 패턴과... "
+
+    },
+    {
+      "title": "C#으로 배우는 네트워크 프로그래밍",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=10660872",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/106/608/10660872.jpg?type=m1&udate=20160608",
+      "author": "조호묵|이정호",
+      "price": "23000",
+      "discount": "20700",
+      "publisher": "가메",
+      "pubdate": "20160610",
+      "isbn": "8980782829 9788980782826",
+      "description": "『C#으로 배우는 네트워크 프로그래밍』은 네트워크 모니터링 시스템 구현을 위한 실전형 C#네트워크 프로그래밍 설명서다. 이 책은 기초부터 응용까지 예제를 제공하여 NETWORK MONITORING SYSTEM을 구현할 수 있도록 도와준다. 또한 프로젝트형 네트워크 어플리케이션 구현을 위한 그래픽... "
+
+    },
+    {
+      "title": "Visual C#.NET 프로젝트 실무 연습 (상용 프로그래머로의 길 안내)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=12195695",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/121/956/12195695.jpg?type=m1&udate=20170705",
+      "author": "편집부",
+      "price": "30000",
+      "discount": "27000",
+      "publisher": "컴스페이스",
+      "pubdate": "20170629",
+      "isbn": "8992376448 9788992376440",
+      "description": "『VISUAL C#.NET 프로젝트 실무 연습』은 초보자에게는 조금 벅찬 프로젝트들을 따라하도록 하고 있다. 이렇게 프로젝트를 따라하다 보면 자연스럽게... 일반 바이블형 서적이 'C#.NET의 전체적 설명하기' 가 목적이라면 이 책의 목적은 한마디로 'C#.NET를 이용한 응용 프로그래밍 작성과 실무 연습'이 될... "
+
+    },
+    {
+      "title": "유니티와 C#으로 배우는 게임 개발 교과서 (기획부터 프로토타이핑, 구현까지)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=8991535",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/089/915/08991535.jpg?type=m1&udate=20160218",
+      "author": "제레미 깁슨",
+      "price": "38000",
+      "discount": "34200",
+      "publisher": "위키북스",
+      "pubdate": "20150429",
+      "isbn": "8998139901 9788998139902",
+      "description": "『유니티와 C#으로 배우는 게임 개발 교과서』는 성공적인 게임 디자이너와 개발자가 되는 데 필요한 툴과 지식을 담고 있다. 책은 게임 디자인을 위한... 또, 실전 프로젝트를 위한 준비 단계로 유니티 게임 엔진과 C# 프로그래밍 언어에 대해 초보자라도 충분히 이해할 수 있게끔 차근차근 설명하며, 마지막으로... "
+
+    },
+    {
+      "title": "그레이햇 C# (C#을 활용한 해커의 보안 도구 제작과 자동화 가이드)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13271884",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/132/718/13271884.jpg?type=m1&udate=20180214",
+      "author": "브랜든 페리",
+      "price": "30000",
+      "discount": "27000",
+      "publisher": "에이콘출판",
+      "pubdate": "20180212",
+      "isbn": "1161751181 9791161751184",
+      "description": "책에 소개된 다양한 도구는 보안 전문가와 침투 테스터가 자주 활용하는 보안 툴이다. 플랫폼에 독립적인 C# 언어로 저자가 직접 작성한 코드를 통해 보안 도구와 연동하는 법을 자세히 알려주며, 이를 기반으로 자신만의 맞춤형 도구를 개발할 수 있는 좋은 지침서로 활용할 수 있다."
+
+    },
+    {
+      "title": "바쁜 개발자들을 위한 C# (빠르게 익히는 C# 핵심 개념)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=10028803",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/100/288/10028803.jpg?type=m1&udate=20160218",
+      "author": "롭 마일즈",
+      "price": "22000",
+      "discount": "19800",
+      "publisher": "남가람북스",
+      "pubdate": "20160107",
+      "isbn": "1195484534 9791195484539",
+      "description": "『바쁜 개발자들을 위한 C#』은 C# 프로그래밍을 위한 기본적인 내용을 제공하는 것 외에도 솔루션을 만드는 방법과 고급 프로그래밍에 대한 내용을 다룬 책이다. 이 책을 통해서 C#에 대한 전반적인 내용을 단순간에 살펴볼 수 있을 것이며, 기본부터 시작해서 고급 수준까지 가는데, 디딤돌이 될 수 있기를... "
+
+    },
+    {
+      "title": "C#으로 온라인 게임 서버 만들기 (유니티 개발자를 위한)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=9739181",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/097/391/09739181.jpg?type=m1&udate=20151029",
+      "author": "이석현",
+      "price": "14400",
+      "discount": "12960",
+      "publisher": "한빛미디어",
+      "pubdate": "20151026",
+      "isbn": "8968487588 9788968487583",
+      "description": "이제 서버까지 개발하고 완전체로 거듭나자!이 책은 C#으로 온라인 게임 서버를 개발하는 방법을 소개한다. 닷넷 프레임워크에서 TCP 소켓 기능을 활용하는 방법을 소개하고, 간단한 에코 서버를 개발한 뒤, 실시간 온라인 게임(세균전) 서버까지 제작해본다. 이 책의 목적은 게임 서버와 클라이언트가 어떤... "
+
+    },
+    {
+      "title": "유니티 C# 스크립트 A to Z 세트 (유니티 5.x와 함께하는 C# 첫걸음 + 유니티 C# 스크립팅 마스터하기,전2권)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=11433580",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/114/335/11433580.jpg?type=m1&udate=20171205",
+      "author": "그렉 루코섹|앨런 쏜",
+      "price": "55000",
+      "discount": "49500",
+      "publisher": "에이콘출판",
+      "pubdate": "20161222",
+      "isbn": "8960779547 9788960779549",
+      "description": "★ 세트 구성: 전2권 ★&#x0D;&#x0D;1) 유니티 5.x와 함께하는 C# 첫걸음&#x0D;2) 유니티 C# 스크립팅 마스터하기&#x0D;&#x0D;&#x0D;『유니티 5.x와 함께하는 C# 첫걸음』 소개&#x0D;&#x0D;유니티로 게임을 만들고 싶지만 C# 프로그래밍 언어를 잘 모르는 초보 프로그래머에게 C#을 차근차근 알려준다. 유니티를 사용해... "
+
+    },
+    {
+      "title": "C# 멀티스레드 프로그래밍 (멀티코어를 위한 스레드, TPL, PLINQ, Rx 활용, acorn+PACKT 시리즈)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=10416569",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/104/165/10416569.jpg?type=m1&udate=20170911",
+      "author": "유진 아가포노프",
+      "price": "30000",
+      "discount": "27000",
+      "publisher": "에이콘출판",
+      "pubdate": "20160414",
+      "isbn": "8960778389 9788960778382",
+      "description": "[C# 멀티스레드 프로그래밍]은 C#으로 애플리케이션의 성능을 효율적으로 올릴 수 있는 멀티스레딩과 병렬 프로그래밍 기법을 중심으로 다루었다. 스레드의 기본 개념부터 시작해 TPL, PLINQ, RX 등 고급 주제까지 예제 코드로 풀어 설명했으며, 개발 과정에서 필요한 내용과 코드를 용도에 맞게 찾아볼 수... "
+
+    },
+    {
+      "title": "초보자를 위한 C# 200제",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=5264868",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/052/648/05264868.jpg?type=m1&udate=20161223",
+      "author": "조효은",
+      "price": "25000",
+      "discount": "22500",
+      "publisher": "정보문화사",
+      "pubdate": "20090105",
+      "isbn": "8956744521 9788956744520",
+      "description": "200개의 예제로 C#의 핵심을 완벽하게 터득한다!     200개의 예제를 통해 C# 프로그래밍의 문법을 익히고 응용력을 키운다. 명확한 그림과 도표를 통해 개체지향 프로그래밍 언어인 C# 특징과 핵심 구조를 이해한다. C# 프로그래밍의 정석을 보여주는 실무형 예제로 구성되어 있다.   입문부터 초급을 거쳐... "
+
+    },
+    {
+      "title": "Essential C# 6.0 (C# 6.0 기초에서 고급까지 완벽 가이드,한국어판)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=10607546",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/106/075/10607546.jpg?type=m1&udate=20161223",
+      "author": "마크 미카엘리스|에릭 리퍼트",
+      "price": "50000",
+      "discount": "45000",
+      "publisher": "에이콘출판",
+      "pubdate": "20160531",
+      "isbn": "8960778486 9788960778481",
+      "description": "이 책은 C# 언어에 대해 자세하고 포괄적으로 다루면서 튜토리얼을 넘어 능률적인 소프트웨어 개발을 시작할 수 있는 이론적 토대를 제공한다. 또한, C# 프로그래밍 패러다임에 대한 통찰력을 제공하며, 이전 버전 C#의 모든 기능과 더불어 C# 6.0과 닷넷 프레임워크 4.6의 최신 버전에서 소개한 기능을 다룬다. \n\n이... "
+
+    },
+    {
+      "title": "C# 5.0 프로그래밍 실전 프로젝트",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=8737595",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/087/375/08737595.jpg?type=m1&udate=20150821",
+      "author": "조호묵",
+      "price": "24000",
+      "discount": "21600",
+      "publisher": "가메출판사",
+      "pubdate": "20150204",
+      "isbn": "8980782756 9788980782758",
+      "description": "C# 5.0 프로그래밍을 위한 지침서. 50개의 예제 프로그램 수록하였으며, 쉽게 습득할 수 있는 예제 중심의 프로그래밍 지침서이다. 다양한 예제로 C#의 문법과 프로그래밍 테크닉을 배울 수 있으며, 실무 개발에 활용 가능한 프로그래밍 능력을 향상할 수 있다."
+
+    },
+    {
+      "title": "C#프로그래핑 활용 PC기반제어기술",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=8825900",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/088/259/08825900.jpg?type=m1&udate=20180222",
+      "author": "선권석|나승유|김진영|강기호|박봉석",
+      "price": "30000",
+      "discount": "27000",
+      "publisher": "청문각(교문사)",
+      "pubdate": "20150301",
+      "isbn": "8963642240 9788963642246",
+      "description": "이 책은 PC 기반 제어 분야를 다루고 있는 C# 언어를 활용하였다. UCI BUS와 이 신호를 분리해 내는 BIU 및 제어용 전자 회로 7종류를 개발하였고, 이들을 이용해서 PC 기반 제어를 공부하고자 한다면 누구나 저렴한 가격으로 구입하여 실습할 수 있도록 장비를 구성하였다. 또한 이들 제어용 전자 회로 보드... "
+
+    },
+    {
+      "title": "The C# Programming Language (한국어판)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=6944400",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/069/444/06944400.jpg?type=m1&udate=20150813",
+      "author": "앤더스 헤일스버그|매드 토르거슨|스코트 윌타무스|피터 골디",
+      "price": "45000",
+      "discount": "40500",
+      "publisher": "에이콘출판",
+      "pubdate": "20120629",
+      "isbn": "8960773182 9788960773189",
+      "description": "C#의 창시자, 헤일스 버그가 제안하는 C# 언어 명세서!『THE C# PROGRAMMING LANGUAGE (FOURTH EDITION) 한국어판』은 C# 언어의 개념과 설계 사상을 가장 정확하게 소개한 C# 언어 아키텍트인 앤더스 헤일스버그의 작품이다. C# 4.0의 새로운 기능인 동적 바인딩, 명명된 매개변수와 선택적 매개변수, 공변과... "
+
+    },
+    {
+      "title": "C#이 보이는 그림책 (국내 최초 그림으로 배우는 C# 프로그래밍 입문서)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=12096357",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/120/963/12096357.jpg?type=m1&udate=20170529",
+      "author": "ANK CO.|Ltd.",
+      "price": "16000",
+      "discount": "14400",
+      "publisher": "성안당",
+      "pubdate": "20170523",
+      "isbn": "8931555113 9788931555110",
+      "description": "『C#이 보이는 그림책』은 그림으로 배우는 C# 프로그래밍 입문서다."
+
+    },
+    {
+      "title": "C#으로 배우는 보안 프로그래밍",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=8317609",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/083/176/08317609.jpg?type=m1&udate=20150820",
+      "author": "조호묵|이귀봉|김성수",
+      "price": "21000",
+      "discount": "18900",
+      "publisher": "가메",
+      "pubdate": "20141027",
+      "isbn": "898078273X 9788980782734",
+      "description": "『C#으로 배우는 보안 프로그래밍』은 쉽고 다양한 보안프로그램 예제를 통해 보안 프로그래밍에 입문하는 기본 방향을 제시한 책이다. VISUAL C/C++ 언어의 영역인 보안 프로그래밍을 C# 5.0을 통해 쉽고 빠르게 윈도우 보안 프로그램을 구현할 수 있을 것이다."
+
+    },
+    {
+      "title": "고급C# 데이터베이스 프로그래밍",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=8825456",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/088/254/08825456.jpg?type=m1&udate=20150312",
+      "author": "홍동권",
+      "price": "14000",
+      "discount": "13300",
+      "publisher": "빛을여는책방",
+      "pubdate": "20150227",
+      "isbn": "8975857018 9788975857010",
+      "description": "『고급C# 데이터베이스 프로그래밍』은 ER 모델, 관계형 모델, SQL 등의 기본 지식을 갖춘 후 좀 더 실질적인 데이터베이스 응용 프로그램을 작성하고자 하는 독자들을 위한 책이다. C#에 대한 기초적인 지식을 보유한 상태에서 오라클과 VISUAL STUDIO .NET을 이용하여 데이터베이스 응용 프로그램을 직접... "
+
+    },
+    {
+      "title": "시작하세요! C# 6.0 프로그래밍 (기본 문법부터 실전 예제까지)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=9345177",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/093/451/09345177.jpg?type=m1&udate=20170916",
+      "author": "정성태",
+      "price": "27000",
+      "discount": "",
+      "publisher": "위키북스",
+      "pubdate": "20150804",
+      "isbn": "1158390076 9791158390075",
+      "description": "이 책은 프로그램을 만들고자 할 때 사용하게 될 프로그래밍 언어인 C#의 기초를 단단하게 다질 수 있도록 이 책을 구성했다. C# 언어를 최신의 6.0 문법까지 설명하고 있으며, 나아가 단순히 언어의 문법 습득에 그치지 않고 실제로 프로그램을 제작할 수 있는 단계까지 학습할 수 있게 내용을 구성했다."
+
+    },
+    {
+      "title": "ATmega128A 제어 및 C# HMI 프로그래밍",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=11432776",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/114/327/11432776.jpg?type=m1&udate=20161220",
+      "author": "김재영|허덕행",
+      "price": "28000",
+      "discount": "",
+      "publisher": "동일출판사",
+      "pubdate": "20170110",
+      "isbn": "8938111059 9788938111050",
+      "description": "마이크로콘트롤러의 응용기술을 완벽히 이해하기 위해서는 반드시 하드웨어의 제작 및 실습을 병행하여야 한다. 본 교재에서 소개하고 있는 ATmega128A/128 및 ATmega1281 /2561을 구동하기 위한 메인 모듈의 회로와 다양한 입.출력 모듈의 회로를 이해하여 실제 제작을 하고, C 프로그램을 이용하여... "
+
+    },
+    {
+      "title": "VISUAL C# 2008 STEP BY STEP",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=5346448",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/053/464/05346448.jpg?type=m1&udate=20141122",
+      "author": "John Sharp",
+      "price": "30000",
+      "discount": "27000",
+      "publisher": "정보문화사",
+      "pubdate": "20090130",
+      "isbn": "8956744572 9788956744575",
+      "description": "STEP BY STEP!기술 서적 제작 회사 CONTENT MASTERR의 수석 기술자 JOHN SHARP의 『VISUAL C# 2008 STEP BY STEP』. 코드 자체보다는 기능 구현에 노력과 시간을 투자할 수 있도록 이끌어주는 VISUAL C# 2008에 대한 교재다.이 책은 VISUAL C# 2008로 프로그램을 개발하는 방법을 단계별로 배워나가게 된다. 단순히... "
+
+    },
+    {
+      "title": "Hands-On Machine Learning with C#",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13774577",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/137/745/13774577.jpg?type=m1&udate=20180708",
+      "author": "Matt R. Cole",
+      "price": "12000",
+      "discount": "",
+      "publisher": "Packt(GCOScience)",
+      "pubdate": "20180525",
+      "isbn": "1788995244 9781788995245",
+      "description": "in C# using tools such as Visual Studio, SQL Server, and Microsoft Azur2e. Hands-On Machine Learning with C# uniquely blends together an understanding of various machine learning... These tools include image and motion detection, Bayes intuition, and deep learning, to C#... "
+
+    },
+    {
+      "title": "Hands-On Machine Learning with C#",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13687551",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/136/875/13687551.jpg?type=m1&udate=20181019",
+      "author": "R. Cole|Matt",
+      "price": "51820",
+      "discount": "32000",
+      "publisher": "PacktPublishing",
+      "pubdate": "20180524",
+      "isbn": "1788994949 9781788994941",
+      "description": ""
+
+    },
+    {
+      "title": "Effective C＃ 6.0/7.0",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13987837",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/139/878/13987837.jpg?type=m1&udate=20180910",
+      "author": "B.ワグナ- 저鈴木 幸敏 監譯",
+      "price": "42010",
+      "discount": "42010",
+      "publisher": "翔泳社",
+      "pubdate": "20180928",
+      "isbn": "4798153869 9784798153865",
+      "description": ""
+
+    },
+    {
+      "title": "ゼロからはじめるVisual C＃入門",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=14027537",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/140/275/14027537.jpg?type=m1&udate=20181028",
+      "author": "藤本 邦昭",
+      "price": "26780",
+      "discount": "26260",
+      "publisher": "森北出版",
+      "pubdate": "20180928",
+      "isbn": "4627818416 9784627818415",
+      "description": ""
+
+    },
+    {
+      "title": "처음 배우는 C# (초보자를 위한 입문 가이드)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=8902734",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/089/027/08902734.jpg?type=m1&udate=20161223",
+      "author": "제이든 카이",
+      "price": "25000",
+      "discount": "22500",
+      "publisher": "에이콘출판",
+      "pubdate": "20150331",
+      "isbn": "8960776947 9788960776944",
+      "description": "처음 C# .NET 프레임워크 프로그래밍 세계에 발을 들이는 사람이 어렵게 느낄 수 있는 주제를 기본과 핵심에 충실해 쉽게 다룬다. C# 프로그래밍과 관련된 포괄적인 주제를 이해하기 쉬운 적절한 깊이로 설명하므로 모든 장을 완전히 이해하면, 중급 C# 프로그래머로 가는 길이 열릴 것이다. 이 책에서는 전문 C... "
+
+    },
+    {
+      "title": "C# and .NET Core Test-Driven Development",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13766546",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/137/665/13766546.jpg?type=m1&udate=20180706",
+      "author": "Ayobami Adewole",
+      "price": "12000",
+      "discount": "",
+      "publisher": "Packt(GCOScience)",
+      "pubdate": "20180518",
+      "isbn": "1788299922 9781788299923",
+      "description": ""
+
+    },
+    {
+      "title": "C# 7 and .NET Core 2.0 High Performance",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13608755",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/136/087/13608755.jpg?type=m1&udate=20180518",
+      "author": "Ovais Mehboob Ahmed Khan",
+      "price": "19000",
+      "discount": "",
+      "publisher": "Packt(GCOScience)",
+      "pubdate": "20180425",
+      "isbn": "1788474600 9781788474603",
+      "description": ""
+
+    },
+    {
+      "title": "Beginning C# 7 Programming with Visual Studio 2017",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13453685",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/134/536/13453685.jpg?type=m1&udate=20180402",
+      "author": "Benjamin Perkins",
+      "price": "38960",
+      "discount": "",
+      "publisher": "Wrox",
+      "pubdate": "20180320",
+      "isbn": "1119458668 9781119458661",
+      "description": "Easily get started programming using the ultra-versatile C# 7 and Visual Studio 2017 Beginning C# 7 Programming with Visual Studio 2017... Whether you’re new to programming entirely, or just new to C#, there has never been a better time to get started. The new C# 7 and... "
+
+    },
+    {
+      "title": "C#으로 만들어 보는 시스템 트레이딩 for 키움증권",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=12209964",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/122/099/12209964.jpg?type=m1&udate=20170919",
+      "author": "김동성",
+      "price": "7400",
+      "discount": "7400",
+      "publisher": "퍼플",
+      "pubdate": "20170619",
+      "isbn": "0000285285 1400000285282",
+      "description": "안녕하세요.보통 샐러리맨들의 재태크 일환으로 주식을 하시는 분도 계실 것이라 생각합니다.그런데 생각보다 회사 생활과 주식, 두 일을 동시에 하기가 어렵습니다.그래서 &QUOT;어떻게 하면 회사 생활에 방해가 되지 않으면서 주식을 성공적으로 할 수 있을까&QUOT;를고민 하다가 시스템... "
+
+    },
+    {
+      "title": "C# 7 and .NET Core 2.0 Blueprints",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13608837",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/136/088/13608837.jpg?type=m1&udate=20180518",
+      "author": "Dirk Strauss",
+      "price": "19000",
+      "discount": "",
+      "publisher": "Packt(GCOScience)",
+      "pubdate": "20180328",
+      "isbn": "1788398130 9781788398138",
+      "description": ""
+
+    },
+    {
+      "title": "초보자를 위한 VISUAL C# 2005",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=2635670",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/026/356/02635670.jpg?type=m1&udate=20141122",
+      "author": "James Foxall",
+      "price": "18000",
+      "discount": "16200",
+      "publisher": "정보문화사",
+      "pubdate": "20070118",
+      "isbn": "8956743568 9788956743561",
+      "description": "VISUAL C# 입문서. 이 책은 VISUAL C# 2005 프로그래밍 방법부터 활용까지 단계적 설명을 통해 내용을 상세하게 살펴본다. 또한 각 장 끝부분에 Q&A, 퀴즈, 실습과제를 통해 본문의 내용을 복습할 수 있도록 했다."
+
+    },
+    {
+      "title": "Mastering Unity 2017 Game Development with C# - Second Edition",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=12733709",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/127/337/12733709.jpg?type=m1&udate=20180424",
+      "author": "Thorn|Alan",
+      "price": "68380",
+      "discount": "52470",
+      "publisher": "PacktPublishing",
+      "pubdate": "20171030",
+      "isbn": "1788479831 9781788479837",
+      "description": "Key Features&#x0D;* Create professional grade games with realistic animation and graphics, particle systems and game physics with Unity 2017&#x0D;* Unleash the power of C# scripting to create intelligent game AI and professional grade game workflows.&#x0D;* Create immersive... "
+
+    },
+    {
+      "title": "C#, 그까이꺼! 대충그냥~~",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=10899843",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/108/998/10899843.jpg?type=m1&udate=20160729",
+      "author": "임을영",
+      "price": "9400",
+      "discount": "9400",
+      "publisher": "퍼플",
+      "pubdate": "20160722",
+      "isbn": "0000268046 1400000268049",
+      "description": "C#을 처음 접해보시는 분들을 위한 책입니다. 마이크로소프트사의 닷넷프레임워크의 프로그래밍 모델을 가장 잘 반영하고있는 C#을 배우고, 다양한 응용 프로그램을 만들 수 있도록 도와드리겠습니다."
+
+    },
+    {
+      "title": "Learning C# 7 By Developing Games with Unity 2017 3e",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13718643",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/137/186/13718643.jpg?type=m1&udate=20180712",
+      "author": "Micael DaGraca",
+      "price": "19000",
+      "discount": "",
+      "publisher": "Packt(GCOScience)",
+      "pubdate": "20171226",
+      "isbn": "1788399498 9781788399494",
+      "description": "C# programming by creating fun and interactive games using the latest Unity 2017 platform? If so, look no further; this is the right book for you. Get started with programming C# so... We will walk you through the basics to get you started with C# 7 and its latest features.... "
+
+    },
+    {
+      "title": "C# Data Structures and Algorithms",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13608857",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/136/088/13608857.jpg?type=m1&udate=20180518",
+      "author": "Marcin Jamro",
+      "price": "24000",
+      "discount": "",
+      "publisher": "Packt(GCOScience)",
+      "pubdate": "20180419",
+      "isbn": "1788834682 9781788834681",
+      "description": ""
+
+    },
+    {
+      "title": "Learning C# 7 by Developing Games with Unity 2017",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13096054",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/130/960/13096054.jpg?type=m1&udate=20180502",
+      "author": "Dagraca|Micael",
+      "price": "65980",
+      "discount": "28400",
+      "publisher": "PacktPublishing",
+      "pubdate": "20171226",
+      "isbn": "1788478924 9781788478922",
+      "description": ""
+
+    },
+    {
+      "title": "뇌를 자극하는 C# 4.0 프로그래밍",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=6714854",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/067/148/06714854.jpg?type=m1&udate=20160830",
+      "author": "박상현",
+      "price": "27000",
+      "discount": "",
+      "publisher": "한빛미디어",
+      "pubdate": "20110830",
+      "isbn": "8979148518 9788979148510",
+      "description": "C# 언어의 탄생 배경부터 상세한 입문 과정까지 C#을 잘 설명해 주고 있다. 또한 문법 설명에만 치중하지 않고 프로그램의 동작원리도 충실하게 설명한다. 이 책의 장점은 이것만이 아니다. C# 프로그램이 수행될 때 밑단에서 돌아가는 닷넷 프레임워크를 상세히 설명하며 이론을 설명한 후에는 반드시 예제... "
+
+    },
+    {
+      "title": "C# 7.1 and .NET Core 2.0 - Modern Cross-Platform Development 3E",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13560474",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/135/604/13560474.jpg?type=m1&udate=20180426",
+      "author": "Mark J. Price",
+      "price": "16000",
+      "discount": "",
+      "publisher": "Packt(GCOScience)",
+      "pubdate": "20171130",
+      "isbn": "178847869X 9781788478694",
+      "description": ""
+
+    },
+    {
+      "title": "TAEYO`S ASP.NET V1.0 WITH C#",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=121035",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/001/210/00121035.jpg?type=m1&udate=20150603",
+      "author": "김태영",
+      "price": "40000",
+      "discount": "",
+      "publisher": "영진닷컴",
+      "pubdate": "20030305",
+      "isbn": "8931424337 9788931424331",
+      "description": "이 책에은 ASP.NET 기술의 핵심 기능들을 전반적으로 소개하고 있으며, 그를 사용하여 좀 더 확장성 있고, 안정성 있고, 성능 좋은 웹 어플리케이션을 제작하는 방법에 대해 다루고 있다. 또한, ASP.NET과 연계된 여러 가지 기술도 접목시켜 설명함으로써 여러분이 실제 업무를 진행할 경우, 어떤 식으로... "
+
+    },
+    {
+      "title": "공학도를 위한 최소한의 C#",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=10397897",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/103/978/10397897.jpg?type=m1&udate=20160331",
+      "author": "이창섭|유원선",
+      "price": "25000",
+      "discount": "25000",
+      "publisher": "문운당",
+      "pubdate": "20160225",
+      "isbn": "1156921945 9791156921943",
+      "description": "수학, 물리 등 이공계 과목에 익숙한 독자가 훨씬 빨리 이해하고 공학 강의시간에 제시된 문제해결을 위해 C# 언어를 손쉽게 적용할 수 있는 교재를 만드는 것, 그러면서도 꼭 필요한 내용만으로 제한한다는 기준을 가지고 편찬되었다."
+
+    },
+    {
+      "title": "C# (THE COMPLETE REFERENCE)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=113854",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/001/138/00113854.jpg?type=m1&udate=20130629",
+      "author": "서혁준",
+      "price": "29000",
+      "discount": "",
+      "publisher": "교학사",
+      "pubdate": "20021010",
+      "isbn": "8909078790 9788909078795",
+      "description": "전세계적으로 3백만부 이상 판매된 베스트셀러 저자인 HERBERT SCHILDT가 탁월한 해설로 C#에 내재된 기법과 예제를 하나에서 열까지 빠짐없이 짚어 주고 있습니다.데이터 타입, 연산자, 제어구문, 클래스와 객체, 인터페이스, I/O, 네임스페이스, 예외 처리와 어트리뷰트, ?"
+
+    },
+    {
+      "title": "C#이 보이는 그림책",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=5277038",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/052/770/05277038.jpg?type=m1&udate=20161225",
+      "author": "Ltd.|ANK CO.",
+      "price": "15000",
+      "discount": "",
+      "publisher": "성안당",
+      "pubdate": "20090108",
+      "isbn": "8931550030 9788931550030",
+      "description": "그림으로 배우는 『C#이 보이는 그림책』. .NET 플랫폼을 위해 개발한 객체지향 언어인 C# 입문서다. 글로 설명하기보다는 그림을 풍부하게 활용하여 C# 에 대한 이해를 도와준다.\n\nC++를 기반으로 하고 있으며, 비주얼 베이식뿐 아니라, 자바 등의 장점을 갖추고 있는 C#에 대해서 시각적으로 흥미롭게 배워나갈... "
+
+    },
+    {
+      "title": "C# 2008 비주얼 프로그래밍",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=7124487",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/071/244/07124487.jpg?type=m1&udate=20130118",
+      "author": "김병만",
+      "price": "23000",
+      "discount": "21850",
+      "publisher": "카오스북",
+      "pubdate": "20130107",
+      "isbn": "8998338149 9788998338145",
+      "description": "『C# 2008 비주얼 프로그래밍』은 NET 기반에서 GUI 기반의 응용프로그램 작성을 배울 수 있는 책이다. 클래스에 대한 설명은 MSDN 도움말을 기초로 하고 있으며, 이해하기 쉽도록 내용을 재구성했다. NET와 C# 기본에 대해 설명하고, 문자열 클래스와 스레드 프로그래밍을 배울 수 있다."
+
+    },
+    {
+      "title": "C# (A Programmer's Introduction)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=256367",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/002/563/00256367.jpg?type=m1&udate=20060804",
+      "author": "Harvey Deitel|Paul J. Deitel",
+      "price": "29000",
+      "discount": "",
+      "publisher": "PrenticeHall",
+      "pubdate": "20020701",
+      "isbn": "0130461326 9780130461322",
+      "description": "C# A Programmers Introduction is written for novices and practicing programmers, who want to learn C# through the introductory level. If you already own C# How To Program, 1/e, you should not purchase C# A Programmers Introduction. However, you may be interested in our ASP... "
+
+    },
+    {
+      "title": "책상 위의 C# PRORGRAMMING",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=2088815",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/020/888/02088815.jpg?type=m1&udate=20141122",
+      "author": "전금문",
+      "price": "18000",
+      "discount": "16200",
+      "publisher": "정일",
+      "pubdate": "20060125",
+      "isbn": "8956660654 9788956660653",
+      "description": "C# 언어 문법책. 이 책은 C#의 소개, 변수와 데이터 형식, 콘솔 입출력의 이해 및 연산자, 문, 메서드, 배열, 구조형 및 클래스의 기본 배경, 클래스, 클래스의 상속, 연산자의 오버로딩, 인터페이스, 인덱서와 프로퍼티, 문자열 등으로 구성되어져 있다."
+
+    },
+    {
+      "title": "McAd Developing XML Web Services and Server Components with Visual C#(tm) .Net and the .Net Framewor",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=689647",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/006/896/00689647.jpg?type=m1&udate=20100111",
+      "author": "Amit Kalani|Priti Kalani",
+      "price": "36630",
+      "discount": "",
+      "publisher": "Que",
+      "pubdate": "20031001",
+      "isbn": "0789728974 9780789728975",
+      "description": "This certification exam measures your ability to develop and implement XML Web Services and server components using Visual C# and the Microsoft .NET Framework. This exam counts as a core credit toward the new MCAD (Microsoft Certified Application Developer) certification as... "
+
+    },
+    {
+      "title": "Escort GoF의 디자인 패턴(C#)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=7088121",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/070/881/07088121.jpg?type=m1&udate=20121129",
+      "author": "장문석",
+      "price": "2000",
+      "discount": "",
+      "publisher": "언제나휴일",
+      "pubdate": "20120823",
+      "isbn": "899678849X 4808996788492",
+      "description": "S/W 설계 과정에서 자주 등장하는 유형에 대해 집대성한 GoF의 디자인 패턴이 어떠한 경우에 대해 사용하는지에 대한 자세한 설명과 함께 예제를 제시함으로써 설계 능력을 키울 수 있게 해 줄 것이다.\n(C#언어를 기반으로 설명이 되어있습니다.)"
+
+    },
+    {
+      "title": "C# (A Beginners Guide)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=242777",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/002/427/00242777.jpg?type=m1&udate=20100928",
+      "author": "Herbert Schildt",
+      "price": "43570",
+      "discount": "",
+      "publisher": "McGraw-Hill",
+      "pubdate": "20010801",
+      "isbn": "0072133295 9780072133295",
+      "description": "YOU'LL ALSO BE INTRODUCED TO SOME OF THE ADVANCED FEATURES OF C#. THROUGH A COMBINATION OF HANDS-ON CODING PROJECTS, DETAILED EXPLANATIONS, AND PRACTICAL ADVICE THIS IS THE ESSENTIAL INTRODUCTION FOR EVERY NEW C# PROGRAMMER."
+
+    },
+    {
+      "title": "Visual C# How to Program(Global Edition)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13365321",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/133/653/13365321.jpg?type=m1&udate=20180822",
+      "author": "Paul J. Deitel",
+      "price": "55000",
+      "discount": "52000",
+      "publisher": "프로텍미디어",
+      "pubdate": "20170511",
+      "isbn": "1292153466 9781292153469",
+      "description": "For all basic-to-intermediate level courses in Visual C# programming.&#x0D;&#x0D;An informative, engaging, challenging and entertaining introduction to Visual C#&#x0D;&#x0D;Created by world-renowned programming instructors Paul and Harvey Deitel, Visual C# How to Program... "
+
+    },
+    {
+      "title": "Design Patterns in C#",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13803807",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/138/038/13803807.jpg?type=m1&udate=20180726",
+      "author": "Sarcar|Vaskaran",
+      "price": "61840",
+      "discount": "48150",
+      "publisher": "Apress",
+      "pubdate": "20180622",
+      "isbn": "1484236394 9781484236390",
+      "description": ""
+
+    },
+    {
+      "title": "BEGINNING C#",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=46288",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/000/462/00046288.jpg?type=m1&udate=20130628",
+      "author": "Karli Watson",
+      "price": "38000",
+      "discount": "",
+      "publisher": "정보문화사",
+      "pubdate": "20020326",
+      "isbn": "8976279506 9788976279507",
+      "description": "BEGINNING C#은 초보자 또는 현대의 객체 지향적 프로그래밍 기술을 지원하지 않는 언어들로부터 .NET FRAMEWORK으로 이동하고자 하는, 비교적 경험이 없는 프로그래머들도 쉽게 읽을 수 있는 C# 입문서이다. C#과 .NET의 핵심 개념들을 설명하고, C# 언어의 기본 내용을 이야기 하고 있으며, 개체 지향적... "
+
+    },
+    {
+      "title": "C# 7 and .Net Core: Modern Cross-Platform Development (Modern Cross-Platform Development)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=11893045",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/118/930/11893045.jpg?type=m1&udate=20170923",
+      "author": "Price|Mark J.",
+      "price": "67180",
+      "discount": "58410",
+      "publisher": "PacktPublishing",
+      "pubdate": "20170324",
+      "isbn": "1787129551 9781787129559",
+      "description": ""
+
+    },
+    {
+      "title": "C#으로 만들어 보는 시스템 트레이딩 for 키움증권",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13397348",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/133/973/13397348.jpg?type=m1&udate=20180303",
+      "author": "김동성",
+      "price": "7400",
+      "discount": "",
+      "publisher": "퍼플",
+      "pubdate": "20170619",
+      "isbn": "8924047426 9788924047424",
+      "description": "안녕하세요.보통 샐러리맨들의 재태크 일환으로 주식을 하시는 분도 계실 것이라 생각합니다.그런데 생각보다 회사 생활과 주식, 두 일을 동시에 하기가 어렵습니다.그래서 &QUOT;어떻게 하면 회사 생활에 방해가 되지 않으면서 주식을 성공적으로 할 수 있을까&QUOT;를고민 하다가 시스템... "
+
+    },
+    {
+      "title": "Developing Xml Web Services and Server Components with Microsoft Visual Basic.NET and Microsoft Visual C#.NET (MCAD/MCSD Self-paced Training Kit)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=139342",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/001/393/00139342.jpg?type=m1&udate=20170713",
+      "author": "Microsoft",
+      "price": "32000",
+      "discount": "",
+      "publisher": "정보문화사",
+      "pubdate": "20040105",
+      "isbn": "8956741549 9788956741543",
+      "description": "각 교과와 핸즈온 실습을 통해 최적의 속도로 VISUAL BASIC.NET과 VISUAL C#.NET을 사용해서 XML 웹 서비스와 서버 컴포넌트를 만드는 방법을... 자동 채점 기능, 자가 학습용 가이드, VISUAL C#.NET과 VISUAL BASIC.NET에 대한 각각의 코드 예제와 랩 &lt;부록&gt; 다우교육원 30% 할인 교육 쿠폰"
+
+    },
+    {
+      "title": "소설같은 C# (동영상 강의로 정복해버리는)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=6045375",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/060/453/06045375.jpg?type=m1&udate=20150724",
+      "author": "최영관",
+      "price": "29000",
+      "discount": "",
+      "publisher": "자북",
+      "pubdate": "20090615",
+      "isbn": "8989984173 9788989984177",
+      "description": "소설같은C# 3RD EDITION은 2003년 이래로 3번째 출간되는 책입니다. FIRST EDITION은 열정과 풋풋함으로 승부했다면, SECOND EDITION은 양적 질적 향상으로... 2009년 THIRD EDITION에서는 1판과 2판의 노하우를 기반으로 C#만의 깊은 향기로 승부합니다.\n\n소설같은C# 3RD EDITION은 발표자료와 책이 결합된 형식을... "
+
+    },
+    {
+      "title": "C# 7 and .NET Core 2E",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13446856",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/134/468/13446856.jpg?type=m1&udate=20180322",
+      "author": "Mark J. Price",
+      "price": "19000",
+      "discount": "",
+      "publisher": "Packt(GCOScience)",
+      "pubdate": "20170324",
+      "isbn": "1787120260 9781787120266",
+      "description": "with C# 7 and .NET Core, then this book is for you.\nFirst, we'll run you through the basics of C#, as well as object-oriented programming, before taking a quick tour through the latest features of C# 7 such as tuples, pattern matching, out variables, and so on.\nAfter quickly... "
+
+    },
+    {
+      "title": "Visual C# 윈도우 프로그래밍 기초",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=8173065",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/081/730/08173065.jpg?type=m1&udate=20170809",
+      "author": "류상문",
+      "price": "21000",
+      "discount": "20370",
+      "publisher": "문운당",
+      "pubdate": "20140820",
+      "isbn": "1156920345 9791156920342",
+      "description": "C언어나 C++ 언어를 이용한 프로그래밍 경험은 있지만 윈도우 프로그래밍 경험이 없는 학생들이 C# 언어와 비주얼 C#을 이용하여 윈도우 응용 프로그램을 개발하는 방법의 기초를 배울 수 있도록 하고자 하는 의도로 구성되었다.  본서에서는 비주얼 C#이 포함된 비주얼 스튜디오 2010을 프로그램 개발... "
+
+    },
+    {
+      "title": "Starting Out with Visual C#",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=11870669",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/118/706/11870669.jpg?type=m1&udate=20180822",
+      "author": "Tony Gaddis",
+      "price": "93040",
+      "discount": "47520",
+      "publisher": "PearsonHigherEducation",
+      "pubdate": "20170301",
+      "isbn": "1292163216 9781292163215",
+      "description": "For courses in Introductory C# Programming.&#x0D;&#x0D;Clear, Friendly, and Approachable Introduction to Visual C# Programming&#x0D;... Clear, friendly, and approachable, this Fourth Edition of Starting Out With Visual C# is an ideal beginning text for students with no... "
+
+    },
+    {
+      "title": "소설같은 C#",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=2519897",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/025/198/02519897.jpg?type=m1&udate=20100111",
+      "author": "최영관",
+      "price": "35000",
+      "discount": "",
+      "publisher": "자북",
+      "pubdate": "20060911",
+      "isbn": "8989984076 9788989984078",
+      "description": "소설같은 C# 개정2판. 이 책은 C#의 배경과 기본 문법, C# 클래스와 객체지향, 배열과 문자열, 스트림 등의 내용으로 구성되었다."
+
+    },
+    {
+      "title": "Microsoft Visual C# Step by Step",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13580440",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/135/804/13580440.jpg?type=m1&udate=20180701",
+      "author": "Sharp|John",
+      "price": "71260",
+      "discount": "",
+      "publisher": "MicrosoftPr",
+      "pubdate": "20180429",
+      "isbn": "1509307761 9781509307760",
+      "description": ""
+
+    },
+    {
+      "title": "C#/XML을 이용한 ASP.NET",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=101797",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/001/017/00101797.jpg?type=m1&udate=20150806",
+      "author": "김성기|천종성",
+      "price": "30000",
+      "discount": "",
+      "publisher": "디지털북스",
+      "pubdate": "20020510",
+      "isbn": "898910937X 9788989109372",
+      "description": "ASP .NET으로응용프로그램을 개발하기 위한 안내서! 이 책은 독자들로 하여금 ASP.NET과 XML을 어느 정도 실무에 적용시킬 수 있는 능력을 고무시키고자 하는 데 그 목적이 있다. 따라서 ASP.NET과 XML 각각에 대해서 기본적인 내용과 실무에 적용시키는 것이 모두 가능하게 하기 위해 PART 1과... "
+
+    },
+    {
+      "title": "C#.NET으로 3달만 놀자",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=1216626",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/012/166/01216626.jpg?type=m1&udate=20100111",
+      "author": "조은석",
+      "price": "22000",
+      "discount": "20900",
+      "publisher": "내하출판사",
+      "pubdate": "20031113",
+      "isbn": "8957170332 9788957170335",
+      "description": "* 3개월만 열심히 따라하면 누구라도 웹 데이터베이스 프로그램을 만들 수 있다.* 재미있는 예제 프로그램으로 C#.NET을 통합적으로 설명하였다.* 수학이나 바둑보다 더 재미있게 생각하는 훈련을 할 수 있도록 하였다.* 모든 폼이름과 개체이름을 한글화하여 쓸데없이 어려워보이는 프로그램을 쉽게 이해할 수... "
+
+    },
+    {
+      "title": "Professional ASP.NET 4 in C# and VB (한국어판)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=6867522",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/068/675/06867522.jpg?type=m1&udate=20150715",
+      "author": "Bill Evjen|Scott Hanselman|Devin Rader",
+      "price": "56000",
+      "discount": "50400",
+      "publisher": "지앤선",
+      "pubdate": "20120330",
+      "isbn": "8993827451 9788993827453",
+      "description": "ASP .NET 4는 웹 솔루션을 만드는데 사용하는 기술이며, 웹 애플리케이션을 만드는데 프레임워크를 제공한다. 이 책은 개발자의 생산성과 유지, 관리, 성능, 확장성이라는 목표에 초점을 두고 ASP .NET 4의 전체 영역을 다루고 있다. 새로운 주제를 소개할 뿐만 아니라 이들 새로운 기술의 실제 사례를 보여준다."
+
+    },
+    {
+      "title": "C# PROGRAMMING BIBLE WITH NET FRAMEWORK 3.0",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=2628458",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/026/284/02628458.jpg?type=m1&udate=20160513",
+      "author": "최재규",
+      "price": "35000",
+      "discount": "",
+      "publisher": "영진닷컴",
+      "pubdate": "20070110",
+      "isbn": "8931434871 9788931434873",
+      "description": "C#과 닷넷의 기초지식부터 이를 응용해 제대로 된 프로그램을 작성할 수 있는 비법을 찾는 사람들을 위한 C# 입문서이자 활용서이다. C# 기본 문법과 주요 라이브러리를 바탕으로 닷넷 프레임워크가 제공하는 중요 라이브러리를 익히고, 이를 바탕으로 C#을 이용해 유용한 프로그램을 작성할 수 있는... "
+
+    },
+    {
+      "title": "Visual C#, Ruby를 만나다",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13797390",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/137/973/13797390.jpg?type=m1&udate=20181016",
+      "author": "박창진",
+      "price": "5000",
+      "discount": "",
+      "publisher": "유페이퍼",
+      "pubdate": "20170107",
+      "isbn": "1163045993 9791163045991",
+      "description": "이번 책은 Visual C#에서 Ruby 스크립트 언어를 사용할 수 있는 방법에 대해서 설명하고 있습니다.&#10;기존 개발자들을 위한 입문서이기 때문에 Visual C#에서 Ruby를&#10;어떻게 하면 사용할 수 있는지에 대한 간단한 소개 정도만 하였다.&#10; 어차피 프로그래밍 언어란 직집 코딩을 해서... "
+
+    },
+    {
+      "title": "Visual C#, Javascript를 만나다",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13797208",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/137/972/13797208.jpg?type=m1&udate=20181016",
+      "author": "박창진",
+      "price": "4000",
+      "discount": "",
+      "publisher": "유페이퍼",
+      "pubdate": "20170108",
+      "isbn": "1163045985 9791163045984",
+      "description": "이번 책은 Visual C#에서 Javascript 스크립트 언어를 사용할 수 있는 방법에 대해서 설명하고 있습니다.&#10;기존 개발자들을 위한 입문서이기 때문에 Visual C#에서 Javascript를&#10;어떻게 하면 사용할 수 있는지에 대한 간단한 소개 정도만 하였다.&#10; 어차피 프로그래밍 언어란... "
+
+    },
+    {
+      "title": "PROFESSIONAL C#",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=233189",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/002/331/00233189.jpg?type=m1&udate=20111121",
+      "author": "Simon Robinson",
+      "price": "40000",
+      "discount": "",
+      "publisher": "정보문화사",
+      "pubdate": "20020314",
+      "isbn": "8976279034 9788976279033",
+      "description": "C# 언어와 .NET프레임 워크에 관련된 전반적인 핵심 개념을 소개하였다. C# 문법인 전체적인 내용뿐 아니라 ,WINDOW 응용프로그램, WINDOW... NET을 사용하여 제작하는 웹 응용프로그램과 웹 서비스, WINDOW 컨트롤과 웹 컨트롤 등의 여러가지 유형의 응용 프로그램을 C#을 사용하여... "
+
+    },
+    {
+      "title": "Professional C# 7 and .net Core 2.0 (Website Associated W/Book)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13490237",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/134/902/13490237.jpg?type=m1&udate=20180626",
+      "author": "Nagel|Christian",
+      "price": "76320",
+      "discount": "62200",
+      "publisher": "WroxPrInc",
+      "pubdate": "20180402",
+      "isbn": "1119449278 9781119449270",
+      "description": ""
+
+    },
+    {
+      "title": "Visual C#, Lua를 만나다",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13797286",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/137/972/13797286.jpg?type=m1&udate=20181016",
+      "author": "박창진",
+      "price": "5000",
+      "discount": "",
+      "publisher": "유페이퍼",
+      "pubdate": "20161224",
+      "isbn": "1163047430 9791163047438",
+      "description": "이번 책은 Visual C#에서 Lua 스크립트 언어를 사용할 수 있는 방법에 대해서 설명하고 있습니다.&#10;기존 개발자들을 위한 입문서이기 때문에 Visual C#에서 Lua를&#10;어떻게 하면 사용할 수 있는지에 대한 간단한 소개 정도만 하였다.&#10; 어차피 프로그래밍 언어란 직집 코딩을 해서... "
+
+    },
+    {
+      "title": "C＃人工知能プログラミング~オブジェクト",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13553513",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/135/535/13553513.jpg?type=m1&udate=20180427",
+      "author": "深井 裕二",
+      "price": "32820",
+      "discount": "32820",
+      "publisher": "三惠社",
+      "pubdate": "20180328",
+      "isbn": "4864878439 9784864878432",
+      "description": ""
+
+    },
+    {
+      "title": "Illustrated C# 7",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=14009854",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/140/098/14009854.jpg?type=m1&udate=20180918",
+      "author": "Solis|Daniel",
+      "price": "67930",
+      "discount": "50680",
+      "publisher": "Apress",
+      "pubdate": "20180328",
+      "isbn": "1484232879 9781484232873",
+      "description": ""
+
+    },
+    {
+      "title": "C# 디지털 영상처리 (EMGUCV를 이용한)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=6251810",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/062/518/06251810.jpg?type=m1&udate=20100403",
+      "author": "이칠우|정민영",
+      "price": "18000",
+      "discount": "",
+      "publisher": "미래컴",
+      "pubdate": "20100315",
+      "isbn": "8989132762 9788989132769",
+      "description": "EMGUCV를 이용한『C# 디지털 영상처리』. 이 책은 누구든지 손쉽게 영상처리 기술을 체험할 수 있도록 저술되었다. 영상처리 기초 알고리즘을 .NET 프레임워크를 기반으로 하는 C# 언어와 OPENCV를 그대로 이용한 EMGUCV로 표현하고, 해당 프로그램 코드를 VISUAL STUDIO .NET 실습 환경을 통해 직접... "
+
+    },
+    {
+      "title": "C# 6 and .Net Core 1.0",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=10460284",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/104/602/10460284.jpg?type=m1&udate=20161020",
+      "author": "Price|Mark J.",
+      "price": "70780",
+      "discount": "54450",
+      "publisher": "PacktPublishing",
+      "pubdate": "20160328",
+      "isbn": "1785285696 9781785285691",
+      "description": ""
+
+    },
+    {
+      "title": "PROGRAMMING MICROSOFT WINDOWS WITH C#",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=236950",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/002/369/00236950.jpg?type=m1&udate=20100111",
+      "author": "Charles Petzold",
+      "price": "47000",
+      "discount": "",
+      "publisher": "정보문화사",
+      "pubdate": "20020509",
+      "isbn": "8976279611 9788976279613",
+      "description": "WINDOWS FORMS와 함께하는 MICROSOFT .NET의 모든 장점들을 총 망라한 전문적인 길잡이! .NET이 세상에 태어나고 드디어 베스트셀러 저자인 '패졸드'가 차세대 WINDOWS 프로그래밍 클래스 라이브러리인 WINDOWS FORMS의 전분야에 걸쳐 설명하고 있다. C#을 이용한 동적인 유?"
+
+    },
+    {
+      "title": "MoreEffec C＃ 6.0/7.0",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13345408",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/133/454/13345408.jpg?type=m1&udate=20180218",
+      "author": "B.ワグナ- 저吉川 邦夫 監譯",
+      "price": "44640",
+      "discount": "44640",
+      "publisher": "翔泳社",
+      "pubdate": "20180228",
+      "isbn": "4798153982 9784798153988",
+      "description": ""
+
+    },
+    {
+      "title": "アダプティブコ-ド C＃實踐開發手 2版",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=13345442",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/133/454/13345442.jpg?type=m1&udate=20180222",
+      "author": "G.M.ホ-ル 저クイ-プ",
+      "price": "65650",
+      "discount": "59080",
+      "publisher": "日經BP社",
+      "pubdate": "20180228",
+      "isbn": "4822253546 9784822253547",
+      "description": ""
+
+    },
+    {
+      "title": "Xamarin Studio for Android Programming: A C# Cookbook",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=10081077",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/100/810/10081077.jpg?type=m1&udate=20160715",
+      "author": "Nayrolles|Mathieu",
+      "price": "63160",
+      "discount": "44100",
+      "publisher": "PacktPublishing",
+      "pubdate": "20151224",
+      "isbn": "1849691401 9781849691406",
+      "description": "Xamarin studio is emerging as the preferred choice among .NET/C# developers. It enables them to design cross-platform applications using their favorite language and IDE. Xamarin studio is supported by the Mac OS and Windows platforms, and you can develop your own... "
+
+    },
+    {
+      "title": "C# 개발자를 위한 ASP.NET, XML, ADO.NET",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=251562",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/002/515/00251562.jpg?type=m1&udate=20161223",
+      "author": "Jeffrey P. McManus|Chris Kinsman",
+      "price": "23000",
+      "discount": "",
+      "publisher": "정보문화사",
+      "pubdate": "20030106",
+      "isbn": "8956740402 9788956740409",
+      "description": "C# 개발자들에게 보다 효율적이고 효과적인 ASP.NET 애플리케이션 개발 방법을 알려주는 책이다. ASP.NET에 대한 내용과 함께 XML... CLR(Common Language Runtime)과 .NET Foundation Class에 대한 정보\n응용 프로그램 개발자들을 위한 실무 C# 코드 예제\nFoundation Class Libraries에서 사용... "
+
+    },
+    {
+      "title": "시작하세요! C# 프로그래밍 (기본 문법부터 실전 예제까지)",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=7332966",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/073/329/07332966.jpg?type=m1&udate=20151225",
+      "author": "정성태",
+      "price": "35000",
+      "discount": "",
+      "publisher": "위키북스",
+      "pubdate": "20131107",
+      "isbn": "8998139340 9788998139346",
+      "description": "『C# 프로그래밍』은 C# 언어의 최신 버전인 C# 5.0의 문법까지 설명하고 있으며, 나아가 단순히 언어의 문법을 습득하는 데 그치지 않고 실제로 프로그램을 제작할 수 있는 단계까지 학습할 수 있게 구성돼 있다. 이를 통해 C# 언어의 기초를 탄탄하게 다질 수 있을 것이다."
+
+    },
+    {
+      "title": "EMGUCV를 이용한 C# 디지털 영상처리",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=6603449",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/066/034/06603449.jpg?type=m1&udate=20170903",
+      "author": "이칠우|정민영",
+      "price": "25000",
+      "discount": "24250",
+      "publisher": "YOUNG",
+      "pubdate": "20110315",
+      "isbn": "8992843305 9788992843300",
+      "description": "『EMGUCV를 이용한 C# 디지털 영상처리』는 를 최신 EMGUCV를 기반으로 한 C# 프로그래밍 기법으로 개조하여 누구든지 손쉽게 영상처리 기술을... 영상처리 기초 알고리즘을 .NET 프레임워크를 기반으로 하는 C# 언어와 OPENCV를 그대로 이용한 EMGUCV로 표현하고, 해당 프로그램 코드를 VISUAL STUDIO.... "
+
+    },
+    {
+      "title": "C# WEB PROGRAMMING 실전가이드",
+      "link": "http://book.naver.com/bookdb/book_detail.php?bid=127244",
+      "image": "https://bookthumb-phinf.pstatic.net/cover/001/272/00127244.jpg?type=m1&udate=20180809",
+      "author": "성상조",
+      "price": "32000",
+      "discount": "30400",
+      "publisher": "데브피아",
+      "pubdate": "20030602",
+      "isbn": "8995250410 9788995250419",
+      "description": "이 책은 해당 분야 전공자들을 위한 교재 겸 전문서이다."
+
+    }
+  ]
+}

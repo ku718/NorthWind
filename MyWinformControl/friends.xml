@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Friends>
+  <Friend no="1">
+    <Name>둘리</Name>
+    <Mobile>010-1111-2222</Mobile>
+    <Addr>남극</Addr>
+  </Friend>
+  <Friend no="38">
+    <Name>흑구</Name>
+    <Mobile>010-1587-5593</Mobile>
+    <Addr>두만강</Addr>
+  </Friend>
+  <Friend no="41">
+    <Name>dasdasd</Name>
+    <Mobile>000-0000-0456</Mobile>
+    <Addr>sadas</Addr>
+  </Friend>
+  <Friend no="42">
+    <Name>시동이</Name>
+    <Mobile>010-6827-3818</Mobile>
+    <Addr>아몰랑</Addr>
+  </Friend>
+</Friends>

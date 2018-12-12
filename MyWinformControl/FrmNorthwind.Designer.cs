@@ -28,25 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.gviewCustomers = new System.Windows.Forms.DataGridView();
+            this.gCustomersView = new System.Windows.Forms.DataGridView();
             this.gviewProducts = new System.Windows.Forms.DataGridView();
-            this.gviewOrderDetails = new System.Windows.Forms.DataGridView();
+            this.gOrderDetailsView = new System.Windows.Forms.DataGridView();
             this.gviewOrders = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtCusCustomerID = new System.Windows.Forms.TextBox();
-            this.txtCompanyName = new System.Windows.Forms.TextBox();
-            this.txtContactName = new System.Windows.Forms.TextBox();
+            this.txtCustomerId = new System.Windows.Forms.TextBox();
+            this.txtCustomerCompanyName = new System.Windows.Forms.TextBox();
+            this.txtCustomerContactName = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btnCusUpdate = new System.Windows.Forms.Button();
-            this.btnCusDelete = new System.Windows.Forms.Button();
             this.btnCusSave = new System.Windows.Forms.Button();
+            this.btnCusDelete = new System.Windows.Forms.Button();
+            this.btnCusUpdate = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.chkDiscontinued = new System.Windows.Forms.CheckBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.btnProSave = new System.Windows.Forms.Button();
             this.btnProDelete = new System.Windows.Forms.Button();
             this.btnProUpdate = new System.Windows.Forms.Button();
@@ -65,24 +67,22 @@
             this.txtOrdCustomerID = new System.Windows.Forms.TextBox();
             this.txtShipName = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.txtOrderDetailsDiscount = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.txtOrderDetailsQuantity = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
             this.btnODSave = new System.Windows.Forms.Button();
             this.btnODDelete = new System.Windows.Forms.Button();
             this.btnODUpdate = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.txtODOrderID = new System.Windows.Forms.TextBox();
+            this.txtOrderDetailsOrderID = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
-            this.txtODProductID = new System.Windows.Forms.TextBox();
-            this.txtUnitPrice = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.txtQuantity = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.txtDiscount = new System.Windows.Forms.TextBox();
-            this.chkDiscontinued = new System.Windows.Forms.CheckBox();
-            ((System.ComponentModel.ISupportInitialize)(this.gviewCustomers)).BeginInit();
+            this.txtOrderDetailsProductID = new System.Windows.Forms.TextBox();
+            this.txtOrderDetailsUnitPrice = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.gCustomersView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gviewProducts)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gviewOrderDetails)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gOrderDetailsView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gviewOrders)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -90,14 +90,14 @@
             this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
-            // gviewCustomers
+            // gCustomersView
             // 
-            this.gviewCustomers.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gviewCustomers.Location = new System.Drawing.Point(12, 36);
-            this.gviewCustomers.Name = "gviewCustomers";
-            this.gviewCustomers.RowTemplate.Height = 23;
-            this.gviewCustomers.Size = new System.Drawing.Size(268, 253);
-            this.gviewCustomers.TabIndex = 1;
+            this.gCustomersView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gCustomersView.Location = new System.Drawing.Point(12, 36);
+            this.gCustomersView.Name = "gCustomersView";
+            this.gCustomersView.RowTemplate.Height = 23;
+            this.gCustomersView.Size = new System.Drawing.Size(268, 253);
+            this.gCustomersView.TabIndex = 1;
             // 
             // gviewProducts
             // 
@@ -108,14 +108,14 @@
             this.gviewProducts.Size = new System.Drawing.Size(268, 253);
             this.gviewProducts.TabIndex = 2;
             // 
-            // gviewOrderDetails
+            // gOrderDetailsView
             // 
-            this.gviewOrderDetails.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gviewOrderDetails.Location = new System.Drawing.Point(343, 346);
-            this.gviewOrderDetails.Name = "gviewOrderDetails";
-            this.gviewOrderDetails.RowTemplate.Height = 23;
-            this.gviewOrderDetails.Size = new System.Drawing.Size(268, 253);
-            this.gviewOrderDetails.TabIndex = 3;
+            this.gOrderDetailsView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gOrderDetailsView.Location = new System.Drawing.Point(343, 346);
+            this.gOrderDetailsView.Name = "gOrderDetailsView";
+            this.gOrderDetailsView.RowTemplate.Height = 23;
+            this.gOrderDetailsView.Size = new System.Drawing.Size(268, 253);
+            this.gOrderDetailsView.TabIndex = 3;
             // 
             // gviewOrders
             // 
@@ -163,26 +163,26 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "OrderDetails";
             // 
-            // txtCusCustomerID
+            // txtCustomerId
             // 
-            this.txtCusCustomerID.Location = new System.Drawing.Point(103, 64);
-            this.txtCusCustomerID.Name = "txtCusCustomerID";
-            this.txtCusCustomerID.Size = new System.Drawing.Size(100, 21);
-            this.txtCusCustomerID.TabIndex = 9;
+            this.txtCustomerId.Location = new System.Drawing.Point(103, 64);
+            this.txtCustomerId.Name = "txtCustomerId";
+            this.txtCustomerId.Size = new System.Drawing.Size(100, 21);
+            this.txtCustomerId.TabIndex = 9;
             // 
-            // txtCompanyName
+            // txtCustomerCompanyName
             // 
-            this.txtCompanyName.Location = new System.Drawing.Point(104, 103);
-            this.txtCompanyName.Name = "txtCompanyName";
-            this.txtCompanyName.Size = new System.Drawing.Size(100, 21);
-            this.txtCompanyName.TabIndex = 10;
+            this.txtCustomerCompanyName.Location = new System.Drawing.Point(104, 103);
+            this.txtCustomerCompanyName.Name = "txtCustomerCompanyName";
+            this.txtCustomerCompanyName.Size = new System.Drawing.Size(100, 21);
+            this.txtCustomerCompanyName.TabIndex = 10;
             // 
-            // txtContactName
+            // txtCustomerContactName
             // 
-            this.txtContactName.Location = new System.Drawing.Point(104, 142);
-            this.txtContactName.Name = "txtContactName";
-            this.txtContactName.Size = new System.Drawing.Size(100, 21);
-            this.txtContactName.TabIndex = 11;
+            this.txtCustomerContactName.Location = new System.Drawing.Point(104, 142);
+            this.txtCustomerContactName.Name = "txtCustomerContactName";
+            this.txtCustomerContactName.Size = new System.Drawing.Size(100, 21);
+            this.txtCustomerContactName.TabIndex = 11;
             // 
             // label5
             // 
@@ -218,34 +218,16 @@
             this.groupBox1.Controls.Add(this.btnCusUpdate);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label7);
-            this.groupBox1.Controls.Add(this.txtCusCustomerID);
+            this.groupBox1.Controls.Add(this.txtCustomerId);
             this.groupBox1.Controls.Add(this.label6);
-            this.groupBox1.Controls.Add(this.txtCompanyName);
-            this.groupBox1.Controls.Add(this.txtContactName);
+            this.groupBox1.Controls.Add(this.txtCustomerCompanyName);
+            this.groupBox1.Controls.Add(this.txtCustomerContactName);
             this.groupBox1.Location = new System.Drawing.Point(638, 36);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(208, 253);
             this.groupBox1.TabIndex = 15;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Customers";
-            // 
-            // btnCusUpdate
-            // 
-            this.btnCusUpdate.Location = new System.Drawing.Point(8, 188);
-            this.btnCusUpdate.Name = "btnCusUpdate";
-            this.btnCusUpdate.Size = new System.Drawing.Size(75, 23);
-            this.btnCusUpdate.TabIndex = 15;
-            this.btnCusUpdate.Text = "Update";
-            this.btnCusUpdate.UseVisualStyleBackColor = true;
-            // 
-            // btnCusDelete
-            // 
-            this.btnCusDelete.Location = new System.Drawing.Point(89, 188);
-            this.btnCusDelete.Name = "btnCusDelete";
-            this.btnCusDelete.Size = new System.Drawing.Size(75, 23);
-            this.btnCusDelete.TabIndex = 16;
-            this.btnCusDelete.Text = "Delete";
-            this.btnCusDelete.UseVisualStyleBackColor = true;
             // 
             // btnCusSave
             // 
@@ -255,6 +237,27 @@
             this.btnCusSave.TabIndex = 17;
             this.btnCusSave.Text = "Save";
             this.btnCusSave.UseVisualStyleBackColor = true;
+            this.btnCusSave.Click += new System.EventHandler(this.btnCustomersInsert_Click);
+            // 
+            // btnCusDelete
+            // 
+            this.btnCusDelete.Location = new System.Drawing.Point(89, 188);
+            this.btnCusDelete.Name = "btnCusDelete";
+            this.btnCusDelete.Size = new System.Drawing.Size(75, 23);
+            this.btnCusDelete.TabIndex = 16;
+            this.btnCusDelete.Text = "Delete";
+            this.btnCusDelete.UseVisualStyleBackColor = true;
+            this.btnCusDelete.Click += new System.EventHandler(this.btnCustomersDelete_Click);
+            // 
+            // btnCusUpdate
+            // 
+            this.btnCusUpdate.Location = new System.Drawing.Point(8, 188);
+            this.btnCusUpdate.Name = "btnCusUpdate";
+            this.btnCusUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btnCusUpdate.TabIndex = 15;
+            this.btnCusUpdate.Text = "Update";
+            this.btnCusUpdate.UseVisualStyleBackColor = true;
+            this.btnCusUpdate.Click += new System.EventHandler(this.btnCustomersUpdate_Click);
             // 
             // groupBox2
             // 
@@ -273,6 +276,24 @@
             this.groupBox2.TabIndex = 18;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Products";
+            // 
+            // chkDiscontinued
+            // 
+            this.chkDiscontinued.AutoSize = true;
+            this.chkDiscontinued.Location = new System.Drawing.Point(103, 141);
+            this.chkDiscontinued.Name = "chkDiscontinued";
+            this.chkDiscontinued.Size = new System.Drawing.Size(15, 14);
+            this.chkDiscontinued.TabIndex = 19;
+            this.chkDiscontinued.UseVisualStyleBackColor = true;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(6, 145);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(78, 12);
+            this.label9.TabIndex = 18;
+            this.label9.Text = "Discontinued";
             // 
             // btnProSave
             // 
@@ -434,25 +455,57 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.txtDiscount);
+            this.groupBox4.Controls.Add(this.txtOrderDetailsDiscount);
             this.groupBox4.Controls.Add(this.label18);
-            this.groupBox4.Controls.Add(this.txtQuantity);
+            this.groupBox4.Controls.Add(this.txtOrderDetailsQuantity);
             this.groupBox4.Controls.Add(this.label17);
             this.groupBox4.Controls.Add(this.btnODSave);
             this.groupBox4.Controls.Add(this.btnODDelete);
             this.groupBox4.Controls.Add(this.btnODUpdate);
             this.groupBox4.Controls.Add(this.label14);
             this.groupBox4.Controls.Add(this.label15);
-            this.groupBox4.Controls.Add(this.txtODOrderID);
+            this.groupBox4.Controls.Add(this.txtOrderDetailsOrderID);
             this.groupBox4.Controls.Add(this.label16);
-            this.groupBox4.Controls.Add(this.txtODProductID);
-            this.groupBox4.Controls.Add(this.txtUnitPrice);
+            this.groupBox4.Controls.Add(this.txtOrderDetailsProductID);
+            this.groupBox4.Controls.Add(this.txtOrderDetailsUnitPrice);
             this.groupBox4.Location = new System.Drawing.Point(875, 346);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(208, 253);
             this.groupBox4.TabIndex = 18;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "OrderDetails";
+            // 
+            // txtOrderDetailsDiscount
+            // 
+            this.txtOrderDetailsDiscount.Location = new System.Drawing.Point(102, 154);
+            this.txtOrderDetailsDiscount.Name = "txtOrderDetailsDiscount";
+            this.txtOrderDetailsDiscount.Size = new System.Drawing.Size(100, 21);
+            this.txtOrderDetailsDiscount.TabIndex = 21;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(6, 161);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(54, 12);
+            this.label18.TabIndex = 20;
+            this.label18.Text = "Discount";
+            // 
+            // txtOrderDetailsQuantity
+            // 
+            this.txtOrderDetailsQuantity.Location = new System.Drawing.Point(102, 119);
+            this.txtOrderDetailsQuantity.Name = "txtOrderDetailsQuantity";
+            this.txtOrderDetailsQuantity.Size = new System.Drawing.Size(100, 21);
+            this.txtOrderDetailsQuantity.TabIndex = 19;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(6, 125);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(51, 12);
+            this.label17.TabIndex = 18;
+            this.label17.Text = "Quantity";
             // 
             // btnODSave
             // 
@@ -462,6 +515,7 @@
             this.btnODSave.TabIndex = 17;
             this.btnODSave.Text = "Save";
             this.btnODSave.UseVisualStyleBackColor = true;
+            this.btnODSave.Click += new System.EventHandler(this.btnOrderDetailsInsert_Click);
             // 
             // btnODDelete
             // 
@@ -471,6 +525,7 @@
             this.btnODDelete.TabIndex = 16;
             this.btnODDelete.Text = "Delete";
             this.btnODDelete.UseVisualStyleBackColor = true;
+            this.btnODDelete.Click += new System.EventHandler(this.btnOrderDetailsDelete_Click);
             // 
             // btnODUpdate
             // 
@@ -480,6 +535,7 @@
             this.btnODUpdate.TabIndex = 15;
             this.btnODUpdate.Text = "Update";
             this.btnODUpdate.UseVisualStyleBackColor = true;
+            this.btnODUpdate.Click += new System.EventHandler(this.btnOrderDetailsUpdate_Click);
             // 
             // label14
             // 
@@ -499,12 +555,12 @@
             this.label15.TabIndex = 14;
             this.label15.Text = "UnitPrice";
             // 
-            // txtODOrderID
+            // txtOrderDetailsOrderID
             // 
-            this.txtODOrderID.Location = new System.Drawing.Point(102, 14);
-            this.txtODOrderID.Name = "txtODOrderID";
-            this.txtODOrderID.Size = new System.Drawing.Size(100, 21);
-            this.txtODOrderID.TabIndex = 9;
+            this.txtOrderDetailsOrderID.Location = new System.Drawing.Point(102, 14);
+            this.txtOrderDetailsOrderID.Name = "txtOrderDetailsOrderID";
+            this.txtOrderDetailsOrderID.Size = new System.Drawing.Size(100, 21);
+            this.txtOrderDetailsOrderID.TabIndex = 9;
             // 
             // label16
             // 
@@ -515,69 +571,19 @@
             this.label16.TabIndex = 13;
             this.label16.Text = "ProductID";
             // 
-            // txtODProductID
+            // txtOrderDetailsProductID
             // 
-            this.txtODProductID.Location = new System.Drawing.Point(103, 49);
-            this.txtODProductID.Name = "txtODProductID";
-            this.txtODProductID.Size = new System.Drawing.Size(100, 21);
-            this.txtODProductID.TabIndex = 10;
+            this.txtOrderDetailsProductID.Location = new System.Drawing.Point(103, 49);
+            this.txtOrderDetailsProductID.Name = "txtOrderDetailsProductID";
+            this.txtOrderDetailsProductID.Size = new System.Drawing.Size(100, 21);
+            this.txtOrderDetailsProductID.TabIndex = 10;
             // 
-            // txtUnitPrice
+            // txtOrderDetailsUnitPrice
             // 
-            this.txtUnitPrice.Location = new System.Drawing.Point(103, 84);
-            this.txtUnitPrice.Name = "txtUnitPrice";
-            this.txtUnitPrice.Size = new System.Drawing.Size(100, 21);
-            this.txtUnitPrice.TabIndex = 11;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(6, 145);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(78, 12);
-            this.label9.TabIndex = 18;
-            this.label9.Text = "Discontinued";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(6, 125);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(51, 12);
-            this.label17.TabIndex = 18;
-            this.label17.Text = "Quantity";
-            // 
-            // txtQuantity
-            // 
-            this.txtQuantity.Location = new System.Drawing.Point(102, 119);
-            this.txtQuantity.Name = "txtQuantity";
-            this.txtQuantity.Size = new System.Drawing.Size(100, 21);
-            this.txtQuantity.TabIndex = 19;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(6, 161);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(54, 12);
-            this.label18.TabIndex = 20;
-            this.label18.Text = "Discount";
-            // 
-            // txtDiscount
-            // 
-            this.txtDiscount.Location = new System.Drawing.Point(102, 154);
-            this.txtDiscount.Name = "txtDiscount";
-            this.txtDiscount.Size = new System.Drawing.Size(100, 21);
-            this.txtDiscount.TabIndex = 21;
-            // 
-            // chkDiscontinued
-            // 
-            this.chkDiscontinued.AutoSize = true;
-            this.chkDiscontinued.Location = new System.Drawing.Point(103, 141);
-            this.chkDiscontinued.Name = "chkDiscontinued";
-            this.chkDiscontinued.Size = new System.Drawing.Size(15, 14);
-            this.chkDiscontinued.TabIndex = 19;
-            this.chkDiscontinued.UseVisualStyleBackColor = true;
+            this.txtOrderDetailsUnitPrice.Location = new System.Drawing.Point(103, 84);
+            this.txtOrderDetailsUnitPrice.Name = "txtOrderDetailsUnitPrice";
+            this.txtOrderDetailsUnitPrice.Size = new System.Drawing.Size(100, 21);
+            this.txtOrderDetailsUnitPrice.TabIndex = 11;
             // 
             // FrmNorthwind
             // 
@@ -593,15 +599,15 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.gviewOrders);
-            this.Controls.Add(this.gviewOrderDetails);
+            this.Controls.Add(this.gOrderDetailsView);
             this.Controls.Add(this.gviewProducts);
-            this.Controls.Add(this.gviewCustomers);
+            this.Controls.Add(this.gCustomersView);
             this.Name = "FrmNorthwind";
             this.Text = "FrmNorthwind";
             this.Load += new System.EventHandler(this.FrmNorthwind_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.gviewCustomers)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gCustomersView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gviewProducts)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gviewOrderDetails)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gOrderDetailsView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gviewOrders)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
@@ -618,17 +624,17 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView gviewCustomers;
+        private System.Windows.Forms.DataGridView gCustomersView;
         private System.Windows.Forms.DataGridView gviewProducts;
-        private System.Windows.Forms.DataGridView gviewOrderDetails;
+        private System.Windows.Forms.DataGridView gOrderDetailsView;
         private System.Windows.Forms.DataGridView gviewOrders;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox txtCusCustomerID;
-        private System.Windows.Forms.TextBox txtCompanyName;
-        private System.Windows.Forms.TextBox txtContactName;
+        private System.Windows.Forms.TextBox txtCustomerId;
+        private System.Windows.Forms.TextBox txtCustomerCompanyName;
+        private System.Windows.Forms.TextBox txtCustomerContactName;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
@@ -656,19 +662,19 @@
         private System.Windows.Forms.TextBox txtOrdCustomerID;
         private System.Windows.Forms.TextBox txtShipName;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.TextBox txtDiscount;
+        private System.Windows.Forms.TextBox txtOrderDetailsDiscount;
         private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.TextBox txtQuantity;
+        private System.Windows.Forms.TextBox txtOrderDetailsQuantity;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Button btnODSave;
         private System.Windows.Forms.Button btnODDelete;
         private System.Windows.Forms.Button btnODUpdate;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox txtODOrderID;
+        private System.Windows.Forms.TextBox txtOrderDetailsOrderID;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox txtODProductID;
-        private System.Windows.Forms.TextBox txtUnitPrice;
+        private System.Windows.Forms.TextBox txtOrderDetailsProductID;
+        private System.Windows.Forms.TextBox txtOrderDetailsUnitPrice;
         private System.Windows.Forms.CheckBox chkDiscontinued;
     }
 }

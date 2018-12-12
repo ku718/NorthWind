@@ -52,10 +52,10 @@ namespace MyWinformControl
 
 
 
-            gviewCustomers.DataSource = dataset.Tables["Customers"];
+            gCustomersView.DataSource = dataset.Tables["Customers"];
             gviewProducts.DataSource = dataset.Tables["Products"];
             gviewOrders.DataSource = dataset.Tables["Orders"];
-            gviewOrderDetails.DataSource = dataset.Tables["Order Details"];
+            gOrderDetailsView.DataSource = dataset.Tables["Order Details"];
 
         }
 
@@ -178,5 +178,236 @@ namespace MyWinformControl
 
 
         }
+
+        #region Customers
+        private void gCustomersView_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (gCustomersView.SelectedRows != null && gCustomersView.SelectedRows.Count == 1)
+            {
+                DataRow dr = dataset.Tables["Customers"].Rows[e.RowIndex];
+                txtCustomerId.Text = dr["CustomerID"].ToString();
+                txtCustomerCompanyName.Text = dr["CompanyName"].ToString();
+                txtCustomerContactName.Text = dr["ContactName"].ToString();
+
+            }
+        }
+
+        private void btnCustomersInsert_Click(object sender, EventArgs e)
+        {
+            DataRow newRow = dataset.Tables["Customers"].NewRow();
+            newRow["CustomerID"] = txtCustomerId.Text;
+            newRow["CompanyName"] = txtCustomerCompanyName.Text;
+            newRow["ContactName"] = txtCustomerContactName.Text;
+
+            dataset.Tables["Customers"].Rows.Add(newRow);
+
+            SqlCommandBuilder sb = new SqlCommandBuilder(customersAdapter);
+
+            try
+            {
+                customersAdapter.Update(dataset, "Customers");
+                dataset.AcceptChanges();
+                FrmNorthwind_Load(null, null);
+            }
+            catch (Exception)
+            {
+                dataset.RejectChanges();
+            }
+        }
+
+        private void btnCustomersDelete_Click(object sender, EventArgs e)
+        {
+            DataRow targetRow = dataset.Tables["Customers"].Rows[gCustomersView.CurrentRow.Index];// friendsTable.Rows[index];
+
+            // 메세지 박스 띄워서 지울까요? 예 아니오
+            targetRow.Delete();
+
+            SqlCommandBuilder sb = new SqlCommandBuilder(customersAdapter);
+
+            try
+            {
+                customersAdapter.Update(dataset, "Customers");
+                dataset.AcceptChanges();
+
+                ClearCustomersFiled();
+                FrmNorthwind_Load(null, null);
+            }
+            catch (SqlException)
+            {
+                MessageBox.Show("삭제 실패");
+                dataset.RejectChanges(); // rollback
+            }
+        }
+
+        private void btnCustomersUpdate_Click(object sender, EventArgs e)
+        {
+            DataRow targetRow = dataset.Tables["Customers"].Rows[gCustomersView.CurrentRow.Index];
+
+            targetRow.BeginEdit(); // 변경된 사항이 있는지 추적
+            targetRow["CustomerID"] = txtCustomerId.Text;
+            targetRow["CompanyName"] = txtCustomerCompanyName.Text;
+            targetRow["ContactName"] = txtCustomerContactName.Text;
+            targetRow.EndEdit(); // 여기까지
+
+            SqlCommandBuilder sb = new SqlCommandBuilder(customersAdapter);
+
+            try
+            {
+                customersAdapter.Update(dataset, "Customers");
+                dataset.AcceptChanges();
+
+                ClearCustomersFiled();
+                FrmNorthwind_Load(null, null);
+            }
+            catch (Exception)
+            {
+                dataset.RejectChanges();
+            }
+        }
+
+        private void ClearCustomersFiled()
+        {
+            txtCustomerId.Text = String.Empty;
+            txtCustomerCompanyName.Text = String.Empty;
+            txtCustomerContactName.Text = String.Empty;
+        }
+
+        private void gCustomersView_DataError(object sender, DataGridViewDataErrorEventArgs e)
+        {
+            MessageBox.Show(e.Exception.Message);
+            if (e.Exception.Message.ToString().ToLower().Contains("foreignkey"))
+            {
+                MessageBox.Show("부모 레코드가 있어야 합니다");
+                return;
+            }
+        }
+        #endregion
+
+        #region Order Details
+        private void gOrderDetailsView_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (gOrderDetailsView.SelectedRows != null && gOrderDetailsView.SelectedRows.Count == 1)
+            {
+                DataRow dr = dataset.Tables["Order Details"].Rows[e.RowIndex];
+                txtOrderDetailsOrderID.Text = dr["OrderID"].ToString();
+                txtOrderDetailsProductID.Text = dr["ProductID"].ToString();
+                txtOrderDetailsUnitPrice.Text = dr["UnitPrice"].ToString();
+                txtOrderDetailsQuantity.Text = dr["Quantity"].ToString();
+                txtOrderDetailsDiscount.Text = dr["Discount"].ToString();
+            }
+        }
+
+        private void btnOrderDetailsInsert_Click(object sender, EventArgs e)
+        {
+            DataRow newRow = dataset.Tables["Order Details"].NewRow();
+            newRow["OrderID"] = txtOrderDetailsOrderID.Text;
+            newRow["ProductID"] = txtOrderDetailsProductID.Text;
+            newRow["UnitPrice"] = txtOrderDetailsUnitPrice.Text;
+            newRow["Quantity"] = txtOrderDetailsQuantity.Text;
+            newRow["Discount"] = txtOrderDetailsDiscount.Text;
+
+            try
+            {
+                dataset.Tables["Order Details"].Rows.Add(newRow);
+
+                SqlCommandBuilder sb = new SqlCommandBuilder(orderDetailsAdapter);
+
+                try
+                {
+                    orderDetailsAdapter.Update(dataset, "Order Details");
+                    dataset.AcceptChanges();
+                    ClearOrderDetailsFiled();
+                    FrmNorthwind_Load(null, null);
+                }
+                catch (Exception ek)
+                {
+                    MessageBox.Show("Primary Key가 중복되었습니다.");
+                    dataset.RejectChanges();
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("부모키가 등록되어 있어야 합니다.");
+            }
+
+
+        }
+
+        private void btnOrderDetailsDelete_Click(object sender, EventArgs e)
+        {
+            DataRow targetRow = dataset.Tables["Order Details"].Rows[gOrderDetailsView.CurrentRow.Index];
+
+            targetRow.Delete();
+
+            SqlCommandBuilder sb = new SqlCommandBuilder(orderDetailsAdapter);
+
+            try
+            {
+                orderDetailsAdapter.Update(dataset, "Order Details");
+                dataset.AcceptChanges();
+                ClearOrderDetailsFiled();
+                FrmNorthwind_Load(null, null);
+
+            }
+            catch (Exception)
+            {
+                dataset.RejectChanges();
+            }
+        }
+
+        private void btnOrderDetailsUpdate_Click(object sender, EventArgs e)
+        {
+            DataRow targetRow = dataset.Tables["Order Details"].Rows[gOrderDetailsView.CurrentRow.Index];
+            try
+            {
+                targetRow.BeginEdit(); // 변경된 사항이 있는지 추적
+                targetRow["OrderID"] = txtOrderDetailsOrderID.Text;
+                targetRow["ProductID"] = txtOrderDetailsProductID.Text;
+                targetRow["UnitPrice"] = txtOrderDetailsUnitPrice.Text;
+                targetRow["Quantity"] = txtOrderDetailsQuantity.Text;
+                targetRow["Discount"] = txtOrderDetailsDiscount.Text;
+                targetRow.EndEdit(); // 여기까지
+
+                SqlCommandBuilder sb = new SqlCommandBuilder(orderDetailsAdapter);
+
+                try
+                {
+                    orderDetailsAdapter.Update(dataset, "Order Details");
+                    dataset.AcceptChanges();
+
+                    ClearCustomersFiled();
+                    FrmNorthwind_Load(null, null);
+                }
+                catch (Exception)
+                {
+                    dataset.RejectChanges();
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("부모키가 등록되어 있어햐 합니다");
+            }
+
+        }
+
+        private void ClearOrderDetailsFiled()
+        {
+            txtOrderDetailsOrderID.Text = String.Empty;
+            txtOrderDetailsProductID.Text = String.Empty;
+            txtOrderDetailsUnitPrice.Text = String.Empty;
+            txtOrderDetailsQuantity.Text = String.Empty;
+            txtOrderDetailsDiscount.Text = String.Empty;
+        }
+
+        private void gOrderDetailsView_DataError(object sender, DataGridViewDataErrorEventArgs e)
+        {
+            MessageBox.Show(e.Exception.Message);
+            if (e.Exception.Message.ToString().ToLower().Contains("foreignkey"))
+            {
+                MessageBox.Show("부모 레코드가 있어야 합니다");
+                return;
+            }
+        }
+        #endregion
     }
 }
